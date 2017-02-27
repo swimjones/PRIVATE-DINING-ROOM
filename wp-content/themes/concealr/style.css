@@ -1,0 +1,47 @@
+/* 	Theme Name: Concealr
+ 	Author: Noah Williams
+	Description: PRIVATE DINING ROOM
+	Version: 0.0.1
+	Tags: hoe
+*/
+body {
+  margin: 0;
+  box-sizing: border-box; }
+
+#header {
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0; }
+
+#content {
+  position: absolute;
+  top: 9%; }
+
+#footer {
+  display: none; }
+
+#header h1 {
+  display: inline-block;
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.3em;
+  width: 100%;
+  padding-left: 10px;
+  background-color: white; }
+
+#header button {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #6B9EFB;
+  float: right;
+  font-size: 1.3em;
+  border: none;
+  background: none; }
+
+.topnav {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
