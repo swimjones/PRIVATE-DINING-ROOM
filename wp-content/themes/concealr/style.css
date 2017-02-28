@@ -68,11 +68,19 @@ body {
   font-family: Helvetica, sans-serif;
   color: #6B9EFB;
   font-size: 4em;
-  background-color: white;
   padding-left: 5px;
-  padding-right: 5px; }
+  padding-right: 5px;
+  background-color: white; }
 
 .nav_menu_item:hover {
   color: #ffc6a8; }
+
+#nav_menu_close {
+  color: red;
+  text-decoration: none;
+  background-color: transparent; }
+
+#nav_menu_close:hover {
+  color: #e0afff; }
 
 /*# sourceMappingURL=style.css.map */

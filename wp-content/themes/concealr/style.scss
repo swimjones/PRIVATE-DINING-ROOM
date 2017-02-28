@@ -22,7 +22,9 @@ body{
 	position:				absolute;
 	top:					9%;
 }
-#delimiter {}
+#delimiter {
+	
+}
 #footer {
 	display:				none;
 }
@@ -85,20 +87,24 @@ $menu_FS:					"Arial", sans-serif;
 	font-family:			Helvetica, sans-serif;
 	color:					#6B9EFB;
 	font-size:				4em;
-	background-color:		white;
 	padding-left:			5px;
 	padding-right:			5px;
+	background-color:		white;
 }
 
 .nav_menu_item:hover{
 	color:					#ffc6a8;
 }
 
-h1{}
-h2{}
-h3{}
-h4{}
-p{}
+#nav_menu_close{
+	color:					red;
+	text-decoration:		none;
+	background-color:		transparent;
+}
+
+#nav_menu_close:hover{
+	color:					#e0afff;
+}
 
 
 

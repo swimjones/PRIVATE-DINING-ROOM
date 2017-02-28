@@ -7,13 +7,17 @@ $(
 	}
 );
 
+
 function navlistopen(){
-	var a = document.getElementById("nav_content");
-	if(a.className === "nav_list"){
-		a.className += " open";
+	var nav = document.getElementById("nav_content");
+	if(nav.className === "nav_list"){
+		nav.className += " open";
 	} else {
-		a.className = "nav_list";
+		nav.className = "nav_list";
 	}
 }
 
-
+function navlistclose(){
+	var nav = document.getElementById("nav_content");
+	nav.className = "nav_list";
+}
