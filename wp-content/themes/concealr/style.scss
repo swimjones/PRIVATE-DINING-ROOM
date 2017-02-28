@@ -13,9 +13,10 @@ body{
 #header {
 	z-index:				1;
 	width:					100%;
-	background-color:		white;
+	background-color:		none;
 	position:				fixed;
 	top:					0;
+	background-color:		white;
 }
 #content {
 	position:				absolute;
@@ -29,6 +30,7 @@ body{
 $title_FS: 					"Helvetica", sans-serif;
 $reader_FS: 				"Frank Ruhl Libre", serif;
 $quote_FS:					"Amiri", serif;
+$menu_FS:					"Arial", sans-serif; 
 
 #header h1{
 	display:				inline-block;
@@ -36,7 +38,15 @@ $quote_FS:					"Amiri", serif;
 	font-size:				1.3em;
 	width:					100%;
 	padding-left:			10px;
-	background-color:		white;
+}
+
+#header h1 a{
+	text-decoration:		none;
+	color:					black;
+}
+
+#header h1 a:hover{
+	color:					red;
 }
 
 #header button{
@@ -51,16 +61,43 @@ $quote_FS:					"Amiri", serif;
 	background:				none;
 }
 
-.topnav{
+.nav_list{
+	position:				absolute;
 	display:				none;
 }
 
+.nav_list.open{
+	position:				absolute;
+	display:				block;
+}
+
+.nav_list li {
+	list-style-type:		none;
+}
+
+#top_icon{
+	text-decoration:		none;
+	color:					#6B9EFB;
+}
+
+.nav_menu_item{
+	text-decoration:		none;
+	font-family:			Helvetica, sans-serif;
+	color:					#6B9EFB;
+	font-size:				4em;
+	background-color:		white;
+	padding-left:			5px;
+	padding-right:			5px;
+}
+
+.nav_menu_item:hover{
+	color:					#ffc6a8;
+}
 
 h1{}
 h2{}
 h3{}
 h4{}
-
 p{}
 
 

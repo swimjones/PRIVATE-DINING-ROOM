@@ -4,11 +4,16 @@ $(
 		for (var i = 0; i <= 3; i++) {
 			console.log(phrases[i]);
 		}
-
-		$("nav").click(function(){
-			$(".topnav").css("display","block");
-		})		
-	
 	}
 );
+
+function navlistopen(){
+	var a = document.getElementById("nav_content");
+	if(a.className === "nav_list"){
+		a.className += " open";
+	} else {
+		a.className = "nav_list";
+	}
+}
+
 
