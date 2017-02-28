@@ -20,6 +20,13 @@ body {
   position: absolute;
   top: 9%; }
 
+.delimiter {
+  height: 5px;
+  width: 90%;
+  background-color: #ffc4c4;
+  position: absolute;
+  left: -20%; }
+
 #footer {
   display: none; }
 
@@ -82,5 +89,19 @@ body {
 
 #nav_menu_close:hover {
   color: #e0afff; }
+
+.index_title {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.13em;
+  width: 70%;
+  position: relative;
+  left: 9%; }
+
+#content p {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: .8em;
+  width: 70%;
+  position: relative;
+  left: 9%; }
 
 /*# sourceMappingURL=style.css.map */

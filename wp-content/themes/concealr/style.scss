@@ -5,11 +5,20 @@
 	Tags: hoe
 */	
 
+// START VARIABLES AND MIXINS // 
+
+$title_FS: 					"Helvetica", sans-serif;
+$reader_FS: 				"Frank Ruhl Libre", serif;
+$quote_FS:					"Amiri", serif;
+$menu_FS:					"Arial", sans-serif;
+
+// END VARIABLES AND MIXINS //
+
 body{
 	margin:					0;
 	box-sizing: 			border-box;
 }
-#wrapper {}
+
 #header {
 	z-index:				1;
 	width:					100%;
@@ -22,14 +31,20 @@ body{
 	position:				absolute;
 	top:					9%;
 }
+
+.delimiter{
+	height:					5px;
+	width:					90%;
+	background-color:		#ffc4c4;
+	position:				absolute;
+	left:					-20%;
+}
+
 #footer {
 	display:				none;
 }
 
-$title_FS: 					"Helvetica", sans-serif;
-$reader_FS: 				"Frank Ruhl Libre", serif;
-$quote_FS:					"Amiri", serif;
-$menu_FS:					"Arial", sans-serif; 
+// START MOBILE NAVIGATION MENU // ---------------------->
 
 #header h1{
 	display:				inline-block;
@@ -102,6 +117,45 @@ $menu_FS:					"Arial", sans-serif;
 #nav_menu_close:hover{
 	color:					#e0afff;
 }
+
+// END MOBILE NAVIGATION MENU // ---------------------->
+
+// START INDEX PAGE // ---------------------->
+
+.index_title{
+	font-family: 			$title_FS;
+	font-size:				1.13em;
+	width:					70%;
+	position:				relative;
+	left:					9%;
+}
+
+#content p{
+	font-family:			$reader_FS;
+	font-size:				.8em;
+	width:					70%;
+	position:				relative;
+	left:					9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
