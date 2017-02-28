@@ -111,7 +111,6 @@ body{
 #nav_menu_close{
 	color:					red;
 	text-decoration:		none;
-	background-color:		transparent;
 }
 
 #nav_menu_close:hover{
@@ -136,6 +135,10 @@ body{
 	width:					70%;
 	position:				relative;
 	left:					9%;
+}
+.testphoto img{
+	width:					auto;
+	height:					auto;
 }
 
 
