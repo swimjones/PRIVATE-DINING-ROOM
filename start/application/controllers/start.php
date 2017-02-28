@@ -1,5 +1,5 @@
 <?php 
-class R12 extends CI_Controller {
+class Start extends CI_Controller {
 
 	public function __construct(){
 		parent::__construct();
@@ -9,7 +9,7 @@ class R12 extends CI_Controller {
 	public function view(){
 		$data['title'] = "PRIVATE DINING ROOM";
 
-		$this->load->view('p/vanilla.php');
+		$this->load->view('p/header.php');
 	}
 }
 ?>
