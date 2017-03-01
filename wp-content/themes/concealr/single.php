@@ -10,6 +10,6 @@
 	<br>
 <?php endwhile; else: ?>
 <p><?php _e('Sorry! We can\'t find that post :-(.');?></p><?php endif; ?>
-</div> <!-- #main div --> 
-</div> <!-- #wrapper div --> 
+</div>
+</div>
 <?php get_footer();?>
