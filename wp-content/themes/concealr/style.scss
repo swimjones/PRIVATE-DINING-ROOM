@@ -97,7 +97,7 @@ body{
 	text-decoration:		none;
 	font-family:			Helvetica, sans-serif;
 	color:					#6B9EFB;
-	font-size:				4em;
+	font-size:				2em;
 	padding-left:			5px;
 	padding-right:			5px;
 	background-color:		white;
@@ -128,6 +128,15 @@ body{
 	left:					9%;
 }
 
+.index_title a {
+	text-decoration:		none;
+	color:					black;
+}
+
+.index_title a:hover{
+	color:					#ffc6a8;
+}
+
 #content p{
 	font-family:			$reader_FS;
 	font-size:				.8em;
@@ -135,13 +144,26 @@ body{
 	position:				relative;
 	left:					9%;
 }
+
 .testphoto img{
 	width:					auto;
 	height:					auto;
 }
 
+// END INDEX PAGE // ---------------------->
 
+// START MEDIA QUERIES // ---------------------->
 
+@media only screen and (min-width:640px){
+	#header h1 {
+		text-align:			center;
+	}
+
+	.nav_list li{
+		text-align:			center;
+	}
+
+}
 
 
 

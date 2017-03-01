@@ -2,8 +2,8 @@
 <div id=main>
 <div id=content>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<div class=testphoto><?php the_post_thumbnail(); ?>
-		<h2 class=index_title><?php the_title(); ?></h2>
+		<div class=testphoto><a href="http://privatediningroom/<?php echo get_post_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+		<h2 class=index_title><a href="http://privatediningroom/<?php echo get_post_permalink(); ?>"><?php the_title(); ?></a></h2>
 		<p class=index_excerpt><?php the_excerpt(__('See full story')); ?></p>
 		</div>
 	<br>
@@ -15,5 +15,3 @@
 </div>
 </div>
 <?php get_footer();?>
-
-
