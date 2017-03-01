@@ -11,7 +11,7 @@
 </head>
 <div id=wrapper>
 <div id=header>
-	<h1><a href="http://private-diningroom/">PRIVATE DINING ROOM</a></h1>
+	<h1><a href="http://privatediningroom/">PRIVATE DINING ROOM</a></h1>
 		<button><a id=top_icon href="javascript:void(0)" onclick="navlistopen()">&#9776;</button>
 		<ul class=nav_list id=nav_content>
 			<li><a href="#" class=nav_menu_item>information</a></li>

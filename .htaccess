@@ -1,4 +1,6 @@
-
+SetEnv DOMAIN_NAME privatediningroom
+SetEnv DATABASE_NAME localhost:3306
+SetEnv PROFILE developer
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On

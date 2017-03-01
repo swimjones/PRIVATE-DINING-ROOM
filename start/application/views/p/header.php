@@ -4,10 +4,10 @@
 	<title>PRIVATE DINING ROOM</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
+	<link rel="stylesheet" type="text/css" href="<?php base_url();?>/wp-content/themes/concealr/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/js/front.js"></script>
+	<script type="text/javascript" src="<?php base_url();?>/wp-content/themes/concealr/js/front.js"></script>
 </head>
 <div id=wrapper>
 <div id=header>
@@ -18,6 +18,7 @@
 			<li><a href="#" class=nav_menu_item>events</a></li>
 			<li><a href="#" class=nav_menu_item>magazine</a></li>
 			<li><a href="#" class=nav_menu_item>identity</a></li>
+			<li><a href="javascript:void(0)" class=nav_menu_item id=nav_menu_close onclick="navlistclose()">exit</a></li>
 		</ul>
 </div>
 </div></html>

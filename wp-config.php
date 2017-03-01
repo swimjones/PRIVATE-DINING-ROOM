@@ -17,14 +17,15 @@
  *
  * @package WordPress
  */
-
-define('WP_HOME', 'http://private-diningroom/');
-define('WP_SITEURL', 'http://private-diningroom/');
+$db_hostname = getenv('DATABASE_NAME');
+$sr_hostname = getenv('DOMAIN_NAME');
+define('WP_HOME', 'http://'.$sr_hostname);
+define('WP_SITEURL', 'http://'.$sr_hostname);
 
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'CPI');
+define('DB_NAME', 'pdr');
 
 /** MySQL database username */
 define('DB_USER', 'swimjones');
@@ -33,7 +34,7 @@ define('DB_USER', 'swimjones');
 define('DB_PASSWORD', 'magnum1998');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', $db_hostname);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
