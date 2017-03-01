@@ -60,7 +60,6 @@ body {
   display: none; }
 
 .nav_list.open {
-  position: absolute;
   display: block; }
 
 .nav_list li {
