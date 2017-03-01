@@ -56,7 +56,7 @@ body {
   background: none; }
 
 .nav_list {
-  position: absolute;
+  /*position:				absolute;*/
   display: none; }
 
 .nav_list.open {
