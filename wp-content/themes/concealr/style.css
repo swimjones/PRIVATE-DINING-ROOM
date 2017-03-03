@@ -109,8 +109,8 @@ body {
   position: relative;
   left: 9%; }
 
-.feat_img {
-  width: auto;
+.feat_img img {
+  width: 100%;
   height: auto; }
 
 @media only screen and (min-width: 640px) {

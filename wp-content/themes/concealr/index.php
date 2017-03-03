@@ -4,7 +4,7 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div class=feat_img><a href="http://privatediningroom/<?php echo get_post_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 		<h2 class=index_title><a href="http://privatediningroom/<?php echo get_post_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<p class=index_excerpt><?php the_excerpt(__('See full story')); ?></p>
+		<p class=index_excerpt><?php the_excerpt(); ?></p>
 		</div>
 	<br>
 	<div class=delimiter></div>
