@@ -19,7 +19,7 @@ body {
 
 #content {
   position: absolute;
-  top: 9.5%;
+  top: 8%;
   margin: auto; }
 
 .delimiter {
@@ -61,7 +61,13 @@ body {
   display: none; }
 
 .nav_list.open {
-  display: block; }
+  display: block;
+  position: absolute;
+  top: 70%;
+  padding: 80px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%; }
 
 .nav_list li {
   list-style-type: none; }
@@ -73,11 +79,11 @@ body {
 .nav_menu_item {
   text-decoration: none;
   font-family: Helvetica, sans-serif;
-  color: #6B9EFB;
-  font-size: 2em;
+  color: black;
+  font-size: 1.7em;
   padding-left: 5px;
   padding-right: 5px;
-  background-color: white; }
+  font-weight: 100; }
 
 .nav_menu_item:hover {
   color: #ffc6a8; }

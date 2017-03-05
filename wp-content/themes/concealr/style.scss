@@ -32,7 +32,7 @@ body {
 }
 #content {
 	position:				absolute;
-	top:					9.5%;
+	top:					8%;
 	margin:					auto;
 }
 
@@ -85,6 +85,12 @@ body {
 
 .nav_list.open {
 	display:				block;
+	position:				absolute;
+	top:					70%;
+	padding:				80px;
+	height:					500px;					
+	background-color:		rgba(255,255,255,0.9);
+	width:					100%;
 }
 
 .nav_list li {
@@ -99,13 +105,13 @@ body {
 .nav_menu_item {
 	text-decoration:		none;
 	font-family:			Helvetica, sans-serif;
-	color:					$ocean;
-	font-size:				2em;
+	color:					black;
+	font-size:				1.7em;
 	padding-left:			5px;
 	padding-right:			5px;
-	background-color:		white;
+	//background-color:		white;
+	font-weight:			100;
 }
-
 .nav_menu_item:hover {
 	color:					#ffc6a8;
 }

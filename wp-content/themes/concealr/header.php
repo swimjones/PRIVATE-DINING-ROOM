@@ -14,10 +14,10 @@
 	<h1><a href="http://privatediningroom/">PRIVATE DINING ROOM</a></h1>
 		<button><a id=top_icon href="javascript:void(0)" onclick="navlistopen()">&#9776;</button>
 		<ul class=nav_list id=nav_content>
-			<li><a href="#" class=nav_menu_item>information</a></li>
 			<li><a href="#" class=nav_menu_item>events</a></li>
 			<li><a href="#" class=nav_menu_item>magazine</a></li>
-			<li><a href="#" class=nav_menu_item>identity</a></li>
+			<li><a href="#" class=nav_menu_item>blog</a></li>
+			<li><a href="#" class=nav_menu_item>about</a></li>
 			<li><a href="javascript:void(0)" class=nav_menu_item id=nav_menu_close onclick="navlistclose()">exit</a></li>
 		</ul>
 </div>
