@@ -19,7 +19,7 @@ body {
 
 #content {
   position: absolute;
-  top: 5%;
+  top: 9.5%;
   margin: auto; }
 
 .delimiter {
@@ -129,7 +129,7 @@ body {
 .read_more a:hover {
   color: red; }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 1000px) {
   #header h1 {
     text-align: center; }
 
