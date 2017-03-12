@@ -8,7 +8,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Amiri|Frank+Ruhl+Libre" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/js/front.js"></script>
-	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/js/headroom.js"></script>
 </head>
 <div id=wrapper>
 <div id=header>
