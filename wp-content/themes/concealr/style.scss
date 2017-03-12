@@ -5,11 +5,22 @@
 	Tags: hoe
 */	
 
+// START FONT-DECLARATIONS //
+
+@font-face {
+	font-family:			"CharterBI";
+	src:					url("fonts/Charter.woff");
+	font-weight:			normal;
+	font-style:				normal;
+}
+
+// END FONT-DECLARATIONS //
+
 // START VARIABLES AND MIXINS // 
 
-$title_FS: 					"Helvetica", sans-serif;
+$header_title_FS: 			"Helvetica", sans-serif;
 $reader_FS: 				"Frank Ruhl Libre", serif;
-$quote_FS:					"Amiri", serif;
+$post_title_FS:				"CharterBI", serif;
 $menu_FS:					"Arial", sans-serif;
 
 $ocean:						#6B9EFB;
@@ -52,7 +63,7 @@ body {
 
 #header h1 {
 	display:				inline-block;
-	font-family: 			$title_FS;
+	font-family: 			$header_title_FS;
 	font-size:				1.3em;
 	width:					100%;
 	padding-left:			10px;
@@ -109,7 +120,6 @@ body {
 	font-size:				2em;
 	padding-left:			5px;
 	padding-right:			5px;
-	//background-color:		white;
 	font-weight:			100;
 }
 .nav_menu_item:hover {
@@ -130,8 +140,9 @@ body {
 // START INDEX PAGE // ---------------------->
 
 .index_title {
-	font-family: 			$title_FS;
+	font-family: 			$post_title_FS;
 	font-size:				1.13em;
+	font-style:				italic;
 	width:					70%;
 	position:				relative;
 	left:					9%;
@@ -154,7 +165,7 @@ body {
 	left:					9%;
 }
 
-.feat_img img {
+.content_block img {
 	width:					100%;
 	height:					auto;
 }
@@ -172,7 +183,6 @@ body {
 	text-decoration:		none;
 	color:white;
 }
-
 
 .read_more a:hover{
 	color:					red;
@@ -197,7 +207,7 @@ body {
 		text-align:			center;
 	}
 
-	.feat_img img {
+	.content_block img {
 		width:				50%;
 		position:			relative;
 		left:				25%;

@@ -4,6 +4,11 @@
 	Version: 0.0.1
 	Tags: hoe
 */
+@font-face {
+  font-family: "CharterBI";
+  src: url("fonts/Charter.woff");
+  font-weight: normal;
+  font-style: normal; }
 body {
   margin: 0;
   padding: 0;
@@ -96,8 +101,9 @@ body {
   color: #e0afff; }
 
 .index_title {
-  font-family: "Helvetica", sans-serif;
+  font-family: "CharterBI", serif;
   font-size: 1.13em;
+  font-style: italic;
   width: 70%;
   position: relative;
   left: 9%; }
@@ -116,7 +122,7 @@ body {
   position: relative;
   left: 9%; }
 
-.feat_img img {
+.content_block img {
   width: 100%;
   height: auto; }
 
@@ -145,7 +151,7 @@ body {
   .nav_list li {
     text-align: center; }
 
-  .feat_img img {
+  .content_block img {
     width: 50%;
     position: relative;
     left: 25%; }
