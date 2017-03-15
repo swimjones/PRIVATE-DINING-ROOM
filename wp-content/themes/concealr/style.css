@@ -62,18 +62,6 @@ body {
   border: none;
   background: none; }
 
-.nav_list {
-  display: none; }
-
-.nav_list.open {
-  display: block;
-  position: absolute;
-  top: 70%;
-  padding: 80px;
-  height: 800px;
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 100%; }
-
 .nav_up {
   top: -40px; }
 
@@ -84,24 +72,11 @@ body {
   text-decoration: none;
   color: #6B9EFB; }
 
-.nav_menu_item {
-  text-decoration: none;
-  font-family: Helvetica, sans-serif;
-  color: black;
-  font-size: 2em;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-weight: 100; }
+.nav_list {
+  display: none; }
 
-.nav_menu_item:hover {
-  color: #ffc6a8; }
-
-#nav_menu_close {
-  color: red;
-  text-decoration: none; }
-
-#nav_menu_close:hover {
-  color: #e0afff; }
+.nav_list.open {
+  display: inline-block; }
 
 .index_title {
   font-family: "CharterBI", serif;
