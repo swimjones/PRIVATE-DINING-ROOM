@@ -74,6 +74,9 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   width: 100%; }
 
+.nav_up {
+  top: -40px; }
+
 .nav_list li {
   list-style-type: none; }
 
