@@ -44,11 +44,9 @@ function hasScrolled() {
 
     if (st < lastScrollTop){
         $('#header').show();
-        console.log("showed menu");
     } else {
         if(st + $(window).height() < $(document).height()) {
             $('#header').hide();
-            console.log("removed class");
         }
     }
     

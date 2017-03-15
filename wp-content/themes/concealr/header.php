@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/js/front.js"></script>
 </head>
 <div id=wrapper>
-<div id=header class=nav_down>
+<div id=header>
 	<h1><a href="http://privatediningroom/">PRIVATE DINING ROOM</a></h1>
 		<button><a id=top_icon href="javascript:void(0)" onclick="navlistopen()">&#9776;</button>
 		<ul class=nav_list id=nav_content>
