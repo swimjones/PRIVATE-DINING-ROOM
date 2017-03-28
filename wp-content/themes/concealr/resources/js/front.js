@@ -1,13 +1,17 @@
 console.log("The future is out there!");
 
+var themePath = "http://privatediningroom/wp-content/themes/concealr/";
+
 // START CLOSING + OPENING NAV MENU // ---------------------->
 
 function bye_menu() {
     if($("#header ul").hasClass("show_menu")){
+        $("#header img").attr("src", themePath + "resources/svg/menu_pipes.svg");
         $("#header ul").removeClass("show_menu").addClass("no_menu");
         return false;
     } else {
         $("#header ul").removeClass("no_menu").addClass("show_menu");
+        $("#header img").attr("src", themePath + "resources/svg/menu_close.svg");
     }
 }
 
