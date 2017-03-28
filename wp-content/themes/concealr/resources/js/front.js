@@ -1,8 +1,14 @@
 console.log("The future is out there!");
 
 // START CLOSING + OPENING NAV MENU // ---------------------->
+
 function bye_menu() {
-    $("#header ul").removeClass(".show_menu").addClass(".no_menu");
+    if($("#header ul").hasClass("show_menu")){
+        $("#header ul").removeClass("show_menu").addClass("no_menu");
+        return false;
+    } else {
+        $("#header ul").removeClass("no_menu").addClass("show_menu");
+    }
 }
 
 // START CLOSING + OPENING NAV MENU // ---------------------->
@@ -32,10 +38,10 @@ function hasScrolled() {
         return;
 
     if (st < lastScrollTop){
-        $('#header').show();
+        $('#header').removeClass("slide_up").addClass("default");
     } else {
         if(st + $(window).height() < $(document).height()) {
-            $('#header').hide();
+            $('#header').removeClass("default").addClass("slide_up");
         }
     }
     

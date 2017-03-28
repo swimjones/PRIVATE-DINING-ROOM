@@ -10,10 +10,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
 </head>
 <div id=wrapper>
-<div id=header>
+<div id=header class=default>
 	<h1><a href="http://privatediningroom/">PRIVATE DINING ROOM</a></h1>
 	<a id=pipes_button href="javascript:void(0)" onclick="bye_menu();"><img src="<?php echo get_stylesheet_directory_uri();?>/resources/svg/menu_pipes.svg"></a>
-	<ul class=show_menu>
+	<ul class=no_menu>
 		<li><a id=mag href="#">magazine</a></li>
 		<li><a id=extras href="#">extras</a></li>
 		<li><a id=info href="#">info</a></li>
