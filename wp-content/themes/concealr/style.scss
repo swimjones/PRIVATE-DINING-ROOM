@@ -116,10 +116,13 @@ body {
 	top:					40px;
 	z-index:				1;
 	height:					100vh;
+	transition-duration:	.4s;
 }
 
 .no_menu {
-	display:				none;
+	position:				relative;
+	top:					-500px;
+	transition-duration:	.6s;
 }
 
 #mag {
