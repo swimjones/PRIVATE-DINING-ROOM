@@ -1,6 +1,9 @@
 console.log("The future is out there!");
 
 // START CLOSING + OPENING NAV MENU // ---------------------->
+function bye_menu() {
+    $("#header ul").removeClass(".show_menu").addClass(".no_menu");
+}
 
 // START CLOSING + OPENING NAV MENU // ---------------------->
 

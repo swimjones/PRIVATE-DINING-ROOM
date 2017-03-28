@@ -12,7 +12,7 @@
 <div id=wrapper>
 <div id=header>
 	<h1><a href="http://privatediningroom/">PRIVATE DINING ROOM</a></h1>
-	<a id=pipes_button href="javascript:void(0)" onclick=""><img src="<?php echo get_stylesheet_directory_uri();?>/resources/svg/menu_pipes.svg"></a>
+	<a id=pipes_button href="javascript:void(0)" onclick="bye_menu();"><img src="<?php echo get_stylesheet_directory_uri();?>/resources/svg/menu_pipes.svg"></a>
 	<ul class=show_menu>
 		<li><a id=mag href="#">magazine</a></li>
 		<li><a id=extras href="#">extras</a></li>
