@@ -57,8 +57,7 @@ body {
 
 .slide_up {
 	position:				absolute;
-	top:					-20px;
-	transition-duration: 	.4s;
+	top:					-1000px;
 }
 
 #header h1 {
@@ -131,6 +130,10 @@ body {
 
 // START INDEX PAGE //
 
+#post_block img { 
+	width:					100%;
+	height:					auto;
+}
 
 
 

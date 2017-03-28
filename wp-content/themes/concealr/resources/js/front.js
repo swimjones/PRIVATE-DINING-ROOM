@@ -12,6 +12,7 @@ function bye_menu() {
     } else {
         $("#header ul").removeClass("no_menu").addClass("show_menu");
         $("#header img").attr("src", themePath + "resources/svg/menu_close.svg");
+        return false; 
     }
 }
 
