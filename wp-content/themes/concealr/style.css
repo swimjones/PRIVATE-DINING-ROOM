@@ -72,7 +72,7 @@ body {
   background-color: white;
   opacity: .9;
   position: relative;
-  top: 40px;
+  top: 45px;
   z-index: 1;
   height: 100vh;
   transition-duration: .4s; }
