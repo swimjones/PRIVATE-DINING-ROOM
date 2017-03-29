@@ -22,8 +22,10 @@ function bye_menu() {
 
 var didScroll;
 var lastScrollTop 	= 0; 
-var navbarHeight 	= $("#header").outerHeight();
-var delta 			= 5; 
+var navbarHeight 	= 60;
+var delta 			= 5;
+
+console.log(navbarHeight); 
 
 $(window).scroll(function(event){
 	didScroll = true;
@@ -39,14 +41,21 @@ setInterval(function(){
 function hasScrolled() {
     var st = $(this).scrollTop();
     
+    // Make sure they scroll more than delta
     if(Math.abs(lastScrollTop - st) <= delta)
         return;
-
-    if (st < lastScrollTop){
-        $('#header').removeClass("slide_up").addClass("default");
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('#header').removeClass('default').addClass('slide_up');
+        $("#header img").css("display","none");
     } else {
+        // Scroll Up
         if(st + $(window).height() < $(document).height()) {
-            $('#header').removeClass("default").addClass("slide_up");
+            $('#header').removeClass('slide_up').addClass('default');
+            $("#header img").css("display","block");
         }
     }
     

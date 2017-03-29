@@ -32,7 +32,7 @@ $new_red:					#E9707F;
 
 body {
 	margin:					0;
-	padding:				0;
+	padding-top:			60px;
 	box-sizing: 			border-box;
 }
 
@@ -47,17 +47,19 @@ body {
 // START HEADER // 
 
 .default {
-	position:				fixed;
-	top:					0;
 	background-color:		$new_blue;
 	width:					100%;
 	height:					60px;
-	transition-duration:	.4s;
+	position:				fixed;
+	top:					0;
+	transition:				top .2s ease-in-out;
 }
 
 .slide_up {
+	transition:				top .2s ease-in-out;
 	position:				absolute;
-	top:					-1000px;
+	top:					-50px;
+
 }
 
 #header h1 {
@@ -101,11 +103,11 @@ body {
 }
 
 .show_menu {
+	z-index:				1;
 	background-color:		white;
 	opacity:				.9;
 	position:				relative;
 	top:					44px;
-	z-index:				1;
 	height:					100vh;
 	transition-duration:	.4s;
 }
