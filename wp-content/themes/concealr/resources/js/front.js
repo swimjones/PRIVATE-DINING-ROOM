@@ -49,15 +49,19 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
-        $('#header').removeClass('default').addClass('slide_up');
+        $("#header").removeClass('default').addClass('slide_up');
         $("#header img").css("display","none");
+        $("#header ul").removeClass("show_menu").addClass("no_menu");
     } else {
-        // Scroll Up
         if(st + $(window).height() < $(document).height()) {
-            $('#header').removeClass('slide_up').addClass('default');
+            $("#header").removeClass('slide_up').addClass('default');
             $("#header img").css("display","block");
-        }
+
+            if(($("#header ul").hasClass("no_menu")) && ($("#header").hasClass("default"))){
+                $("#header img").attr("src", themePath + "resources/svg/menu_pipes.svg");
+            }
     }
+}
     
     lastScrollTop = st;
 }

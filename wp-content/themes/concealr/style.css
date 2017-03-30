@@ -95,4 +95,8 @@ body {
   width: 100%;
   height: auto; }
 
+#post_block h2 {
+  font-family: "CharterBI", serif;
+  font-size: 1.2em; }
+
 /*# sourceMappingURL=style.css.map */
