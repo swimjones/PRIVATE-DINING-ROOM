@@ -5,15 +5,15 @@ var themePath = "http://privatediningroom/wp-content/themes/concealr/";
 // START CLOSING + OPENING NAV MENU // ---------------------->
 
 function bye_menu() {
-    if($("#header ul").hasClass("show_menu")){
+    if($("#header ul").hasClass("show_menu")) {
         $("#header img").attr("src", themePath + "resources/svg/menu_pipes.svg");
         $("#header ul").removeClass("show_menu").addClass("no_menu");
         return false;
     } else {
-        $("#header ul").removeClass("no_menu").addClass("show_menu");
-        $("#header img").attr("src", themePath + "resources/svg/menu_close.svg");
-        return false; 
-    }
+            $("#header ul").removeClass("no_menu").addClass("show_menu");
+            $("#header img").attr("src", themePath + "resources/svg/menu_close.svg");
+            return false; 
+        }
 }
 
 // START CLOSING + OPENING NAV MENU // ---------------------->
@@ -25,12 +25,11 @@ var lastScrollTop 	= 0;
 var navbarHeight 	= 60;
 var delta 			= 5;
 
-console.log(navbarHeight); 
-
 $(window).scroll(function(event){
 	didScroll = true;
-})
+});
 
+// interval set to check status of menu
 setInterval(function(){
 	if(didScroll){
 		hasScrolled();
@@ -41,29 +40,34 @@ setInterval(function(){
 function hasScrolled() {
     var st = $(this).scrollTop();
     
-    // Make sure they scroll more than delta
+    // user must scroll more than delta
     if(Math.abs(lastScrollTop - st) <= delta)
         return;
     
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
+    // if scrolled down and past navbar, add slide_up class to hide
     if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
+
+        // scroll Down
         $("#header").removeClass('default').addClass('slide_up');
-        $("#header img").css("display","none");
+
+        // used to keep svg from floating onscreen
+        $("#header img").css("display","none"); 
         $("#header ul").removeClass("show_menu").addClass("no_menu");
     } else {
-        if(st + $(window).height() < $(document).height()) {
-            $("#header").removeClass('slide_up').addClass('default');
-            $("#header img").css("display","block");
+            if(st + $(window).height() < $(document).height()) {
 
-            if(($("#header ul").hasClass("no_menu")) && ($("#header").hasClass("default"))){
-                $("#header img").attr("src", themePath + "resources/svg/menu_pipes.svg");
+                // scroll up
+                $("#header").removeClass('slide_up').addClass('default');
+                $("#header img").css("display","block");
+
+                // changes menu svg back to normal if menu open while scroll up
+                if(($("#header ul").hasClass("no_menu")) && ($("#header").hasClass("default"))){
+                    $("#header img").attr("src", themePath + "resources/svg/menu_pipes.svg");
+                }
             }
-    }
-}
-    
+        }
     lastScrollTop = st;
+    // set last scroll to new scroll_top
 }
 
 
