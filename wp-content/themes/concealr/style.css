@@ -9,10 +9,20 @@
   src: url("resources/fonts/Charter.woff");
   font-weight: normal;
   font-style: normal; }
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0;
   padding-top: 60px;
   box-sizing: border-box; }
+
+h1, h2, h3, p {
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
 
 #content {
   display: block; }
@@ -42,11 +52,11 @@ body {
   display: inline-block;
   color: white;
   font-size: 1.15em;
-  padding-left: 20px;
-  position: absolute;
-  top: 12%; }
+  padding-left: 20px; }
 
 #header h1 a {
+  position: relative;
+  top: 20px;
   text-decoration: none;
   color: white; }
 
@@ -76,7 +86,7 @@ body {
   background-color: white;
   opacity: .9;
   position: relative;
-  top: 44px;
+  top: 22px;
   height: 100vh;
   transition-duration: .4s; }
 
@@ -100,20 +110,29 @@ body {
   position: relative;
   right: -2%; }
 
-#post_block h2 {
-  display: inline;
+#post_block h2 a {
+  display: inline-block;
+  width: 90%;
   font-family: "CharterBI", serif;
-  font-size: 1.5em; }
+  color: #E9707F;
+  font-size: .9em; }
 
 #post_block p {
   display: inline-block;
   font-family: "Helvetica", sans-serif;
   font-weight: 100;
-  width: 80%; }
+  width: 80%;
+  font-size: .9em; }
+
+#post_box {
+  border: 1px solid red; }
 
 .post_content {
-  display: inline-block;
-  float: right; }
+  position: relative;
+  top: 10px;
+  display: inline;
+  float: right;
+  width: 90%; }
 
 .vert_bar {
   position: relative;
@@ -121,8 +140,8 @@ body {
   right: -2%;
   display: inline;
   float: left;
-  height: 150px;
-  background-color: #4951FF;
+  height: 160px;
+  background-color: #E9707F;
   width: 20px;
   margin-bottom: 20px; }
 

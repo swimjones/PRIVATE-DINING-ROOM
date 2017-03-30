@@ -5,8 +5,6 @@
 	Tags: hoe
 */
 
-//@import "reset.css";
-
 // START FONT-DECLARATIONS //
 
 @font-face {
@@ -32,10 +30,25 @@ $new_red:					#E9707F;
 
 // END VARIABLES AND MIXINS //
 
+// START ALL-AROUND SELECTIONS // 
+
+* {
+	box-sizing:				border-box;
+}
+
 body {
 	margin:					0;
 	padding-top:			60px;
 	box-sizing: 			border-box;
+}
+
+h1, h2, h3, p {
+	margin:					0;
+}
+
+a {
+	text-decoration:		none;
+	color:					inherit;
 }
 
 #content {
@@ -45,6 +58,8 @@ body {
 #footer {
 	display:				none;
 }
+
+// END ALL-AROUND SELECTIONS // 
 
 // START HEADER // 
 
@@ -65,7 +80,6 @@ body {
 	transition:				top .2s ease-in-out;
 	position:				absolute;
 	top:					-50px;
-
 }
 
 #header h1 {
@@ -75,11 +89,12 @@ body {
 	color:					white;
 	font-size:				1.15em;
 	padding-left:			20px;
-	position:				absolute;
-	top:					12%;
+
 }
 
 #header h1 a {
+	position:				relative;
+	top:					20px;
 	text-decoration:		none;
 	color:					white;
 }
@@ -113,7 +128,7 @@ body {
 	background-color:		white;
 	opacity:				.9;
 	position:				relative;
-	top:					44px;
+	top:					22px;
 	height:					100vh;
 	transition-duration:	.4s;
 }
@@ -145,10 +160,12 @@ body {
 	right:					-2%;
 }
 
-#post_block h2 {
-	display:				inline;
+#post_block h2 a {
+	display:				inline-block;
+	width:					90%;
 	font-family:			$post_title_FS;
-	font-size:				1.5em;
+	color:					$new_red;
+	font-size:				.9em;
 }
 
 #post_block p {
@@ -156,11 +173,19 @@ body {
 	font-family:			$header_title_FS;
 	font-weight:			100;
 	width:					80%;
+	font-size:				.9em;
+}
+
+#post_box { 
+	border:					1px solid red;
 }
 
 .post_content {
-	display:				inline-block;
+	position:				relative;
+	top:					10px;
+	display:				inline;
 	float:					right;
+	width:					90%;
 }
 
 .vert_bar {
@@ -169,11 +194,13 @@ body {
 	right:					-2%;
 	display:				inline;
 	float:					left;
-	height:					150px;
-	background-color:		$new_blue;
+	height:					160px;
+	background-color:		$new_red;
 	width:					20px;
 	margin-bottom:			20px;
 }
+
+// END INDEX PAGE //
 
 
 
