@@ -20,6 +20,9 @@ body {
 #footer {
   display: none; }
 
+#header {
+  z-index: 1; }
+
 .default {
   background-color: #4951FF;
   width: 100%;
@@ -92,11 +95,35 @@ body {
   color: #FFB56A; }
 
 #post_block img {
-  width: 100%;
-  height: auto; }
+  width: 96%;
+  height: auto;
+  position: relative;
+  right: -2%; }
 
 #post_block h2 {
+  display: inline;
   font-family: "CharterBI", serif;
-  font-size: 1.2em; }
+  font-size: 1.5em; }
+
+#post_block p {
+  display: inline-block;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
+  width: 80%; }
+
+.post_content {
+  display: inline-block;
+  float: right; }
+
+.vert_bar {
+  position: relative;
+  top: -4px;
+  right: -2%;
+  display: inline;
+  float: left;
+  height: 150px;
+  background-color: #4951FF;
+  width: 20px;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,7 +3,9 @@
 	Description: PRIVATE DINING ROOM
 	Version: 0.0.1
 	Tags: hoe
-*/	
+*/
+
+//@import "reset.css";
 
 // START FONT-DECLARATIONS //
 
@@ -45,6 +47,10 @@ body {
 }
 
 // START HEADER // 
+
+#header {
+	z-index:				1;
+}
 
 .default {
 	background-color:		$new_blue;
@@ -133,13 +139,40 @@ body {
 // START INDEX PAGE //
 
 #post_block img { 
-	width:					100%;
+	width:					96%;
 	height:					auto;
+	position:				relative;
+	right:					-2%;
 }
 
 #post_block h2 {
+	display:				inline;
 	font-family:			$post_title_FS;
-	font-size:				1.2em;
+	font-size:				1.5em;
+}
+
+#post_block p {
+	display:				inline-block;
+	font-family:			$header_title_FS;
+	font-weight:			100;
+	width:					80%;
+}
+
+.post_content {
+	display:				inline-block;
+	float:					right;
+}
+
+.vert_bar {
+	position:				relative;
+	top:					-4px;
+	right:					-2%;
+	display:				inline;
+	float:					left;
+	height:					150px;
+	background-color:		$new_blue;
+	width:					20px;
+	margin-bottom:			20px;
 }
 
 
