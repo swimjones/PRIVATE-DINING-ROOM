@@ -4,8 +4,8 @@
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div class=post_box>
 			<a href="<?php echo get_post_permalink();?>"><?php echo get_the_post_thumbnail(); ?></a>
-				<div class=vert_bar></div>
 				<div class=post_content>
+					<div class=vert_bar></div>
 					<h2><a href="<?php echo get_post_permalink();?>"><?php echo the_title(); ?></a></h2>
 					<p><?php echo the_excerpt();?></p>
 				</div>

@@ -153,6 +153,10 @@ a {
 
 // START INDEX PAGE //
 
+.post_content{
+	//border:					1px solid red;
+	margin-bottom:				15px;
+}
 .post_box img { 
 	width:					96%;
 	height:					auto;
@@ -161,6 +165,9 @@ a {
 }
 
 .post_box h2 a {
+	position:				relative;
+	top:					10px;
+	right:					-10px;
 	display:				inline-block;
 	width:					90%;
 	font-family:			$post_title_FS;
@@ -169,6 +176,8 @@ a {
 }
 
 .post_box p {
+	position:				relative;
+	right:					-10px;
 	display:				inline-block;
 	font-family:			$header_title_FS;
 	font-weight:			100;
@@ -178,22 +187,19 @@ a {
 
 .post_content {
 	position:				relative;
-	top:					10px;
+	top:					-4px;
+	left:					-32px;
 	display:				inline;
 	float:					right;
 	width:					90%;
 }
 
 .vert_bar {
-	position:				relative;
-	top:					-4px;
-	right:					-2%;
-	display:				inline;
+	display:				block;
 	float:					left;
 	height:					160px;
+	width:					15px;
 	background-color:		$new_red;
-	width:					20px;
-	margin-bottom:			20px;
 }
 
 // END INDEX PAGE //
