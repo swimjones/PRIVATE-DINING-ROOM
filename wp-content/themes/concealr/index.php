@@ -7,6 +7,7 @@
 				<div class=post_content>
 					<div class=vert_bar></div>
 					<h2><a href="<?php echo get_post_permalink();?>"><?php echo the_title(); ?></a></h2>
+					<p class=date><?php echo the_date(); ?> — <?php echo the_time(); ?></p>
 					<p><?php echo the_excerpt();?></p>
 				</div>
 			</div>

@@ -128,4 +128,8 @@ a {
   position: relative;
   right: -10px; }
 
+.post_content .date {
+  font-size: .7em;
+  font-style: italic; }
+
 /*# sourceMappingURL=style.css.map */
