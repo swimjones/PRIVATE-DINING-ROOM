@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <div id=main>
 <div id=content>
-<div id=post_block>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div class=post_box>
 			<a href="<?php echo get_post_permalink();?>"><?php echo get_the_post_thumbnail(); ?></a>
@@ -12,7 +11,6 @@
 				</div>
 			</div>
 	<?php endwhile; else: ?>
-</div>
 <p><?php _e('Sorry! We can\'t find that post :-(.');?></p><?php endif; ?>
 </div> <!-- #content end -->
 </div> <!-- #main end -->

@@ -104,28 +104,25 @@ a {
 #info {
   color: #FFB56A; }
 
-#post_block img {
+.post_box img {
   width: 96%;
   height: auto;
   position: relative;
   right: -2%; }
 
-#post_block h2 a {
+.post_box h2 a {
   display: inline-block;
   width: 90%;
   font-family: "CharterBI", serif;
   color: #E9707F;
   font-size: .9em; }
 
-#post_block p {
+.post_box p {
   display: inline-block;
   font-family: "Helvetica", sans-serif;
   font-weight: 100;
   width: 80%;
   font-size: .9em; }
-
-#post_box {
-  border: 1px solid red; }
 
 .post_content {
   position: relative;
