@@ -111,9 +111,12 @@ a {
   width: 90%;
   padding: 2% 0 5% 5%; }
 
+.post_content h2 {
+  padding: 3%; }
+
 .post_content h2 a {
   font-family: "CharterBI", serif;
-  color: #4951FF;
+  color: #E9707F;
   font-size: .85em; }
 
 .post_content p {
@@ -121,6 +124,8 @@ a {
   font-weight: 100;
   font-size: .8em;
   width: 75%;
-  padding-top: 1%; }
+  padding-top: 1%;
+  position: relative;
+  right: -10px; }
 
 /*# sourceMappingURL=style.css.map */

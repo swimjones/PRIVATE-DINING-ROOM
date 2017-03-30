@@ -162,9 +162,13 @@ a {
 	padding:				2% 0 5% 5%;
 }
 
+.post_content h2 {
+	padding:				3%;	
+}
+
 .post_content h2 a {
 	font-family:			$post_title_FS;
-	color:					$new_blue;
+	color:					$new_red;
 	font-size:				.85em;
 }
 
@@ -174,11 +178,11 @@ a {
 	font-size:				.8em;
 	width:					75%;
 	padding-top:			1%;
+	position:				relative;
+	right:					-10px;
 }
 
 // END INDEX PAGE //
-
-
 
 
 
