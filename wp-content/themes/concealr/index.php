@@ -3,8 +3,8 @@
 <div id=content>
 <div id=post_block>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			<a href="<?php echo get_post_permalink();?>"><?php echo get_the_post_thumbnail(); ?></a>
 			<div class=post_box>
+			<a href="<?php echo get_post_permalink();?>"><?php echo get_the_post_thumbnail(); ?></a>
 				<div class=vert_bar></div>
 				<div class=post_content>
 					<h2><a href="<?php echo get_post_permalink();?>"><?php echo the_title(); ?></a></h2>
