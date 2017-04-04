@@ -126,6 +126,9 @@ a {
 .title_link:link {
   color: #E9707F; }
 
+.title_link:visited {
+  color: #FFB56A; }
+
 .title_link:hover {
   color: #4B4083; }
 
@@ -212,11 +215,12 @@ a {
   font-weight: bold; }
 
 #footer p {
-  width: 80%;
+  width: 90%;
   margin: auto;
   font-family: "Helvetica", sans-serif;
-  font-size: 1em;
-  color: white; }
+  font-size: .7em;
+  color: white;
+  padding: 5px 0px 5px 0px; }
 
 @keyframes fade {
   0% {

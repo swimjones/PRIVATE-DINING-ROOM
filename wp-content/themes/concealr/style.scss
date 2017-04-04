@@ -181,6 +181,10 @@ a {
 	color:					$new_red;
 }
 
+.title_link:visited {
+	color:					$new_tan;
+}
+
 .title_link:hover {
 	color:					$new_purple;
 }
@@ -288,11 +292,12 @@ a {
 // START FOOTER // 
 
 #footer p {
-	width:					80%;
+	width:					90%;
 	margin:					auto;
 	font-family:			$header_title_FS;
-	font-size:				1em;
+	font-size:				.7em;
 	color:					white;
+	padding:				5px 0px 5px 0px;
 }
 
 // END FOOTER //
