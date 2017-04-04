@@ -79,8 +79,7 @@ a {
   text-decoration: none;
   text-align: center;
   font-family: "CharterBI", serif;
-  font-size: 1.8em;
-  opacity: 1; }
+  font-size: 1.8em; }
 
 .show_menu {
   z-index: 1;
@@ -97,8 +96,7 @@ a {
   transition-duration: .6s; }
 
 #mag {
-  color: #4B4083;
-  opacity: 1; }
+  color: #4B4083; }
 
 #extras {
   color: #E9707F; }
