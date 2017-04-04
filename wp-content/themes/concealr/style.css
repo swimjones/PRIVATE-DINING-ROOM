@@ -28,7 +28,15 @@ a {
   display: block; }
 
 #footer {
-  display: none; }
+  padding: 20px 0 20px 0;
+  background-color: #4951FF; }
+
+#footer p {
+  width: 80%;
+  margin: auto;
+  font-family: "Helvetica", sans-serif;
+  font-size: .75em;
+  color: white; }
 
 #header {
   z-index: 1; }
@@ -114,10 +122,18 @@ a {
 .post_content h2 {
   padding: 3%; }
 
-.post_content h2 a {
+.title_link {
   font-family: "CharterBI", serif;
-  color: #E9707F;
   font-size: .85em; }
+
+.title_link:link {
+  color: #E9707F; }
+
+.title_link:hover {
+  color: #4B4083; }
+
+.title_link:active {
+  color: #FFB56A; }
 
 .post_content p {
   font-family: "Helvetica", sans-serif;

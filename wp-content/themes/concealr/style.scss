@@ -56,10 +56,23 @@ a {
 }
 
 #footer {
-	display:				none;
+	padding:				20px 0 20px 0;
+	background-color:		$new_blue;
 }
 
 // END ALL-AROUND SELECTIONS // 
+
+// START FOOTER // 
+
+#footer p {
+	width:					80%;
+	margin:					auto;
+	font-family:			$header_title_FS;
+	font-size:				.75em;
+	color:					white;
+}
+
+// END FOOTER //
 
 // START HEADER // 
 
@@ -166,10 +179,21 @@ a {
 	padding:				3%;	
 }
 
-.post_content h2 a {
+.title_link {
 	font-family:			$post_title_FS;
-	color:					$new_red;
 	font-size:				.85em;
+}
+
+.title_link:link {
+	color:					$new_red;
+}
+
+.title_link:hover {
+	color:					$new_purple;
+}
+
+.title_link:active {
+	color:					$new_tan;
 }
 
 .post_content p {
@@ -188,7 +212,6 @@ a {
 }
 
 // END INDEX PAGE //
-
 
 
 
