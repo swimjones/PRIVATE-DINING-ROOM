@@ -29,14 +29,7 @@ a {
 
 #footer {
   padding: 20px 0 20px 0;
-  background-color: #4951FF; }
-
-#footer p {
-  width: 80%;
-  margin: auto;
-  font-family: "Helvetica", sans-serif;
-  font-size: .75em;
-  color: white; }
+  background-color: #E9707F; }
 
 #header {
   z-index: 1; }
@@ -86,12 +79,13 @@ a {
   text-decoration: none;
   text-align: center;
   font-family: "CharterBI", serif;
-  font-size: 1.8em; }
+  font-size: 1.8em;
+  opacity: 1; }
 
 .show_menu {
   z-index: 1;
   background-color: white;
-  opacity: .9;
+  opacity: .97;
   position: relative;
   top: 22px;
   height: 100vh;
@@ -103,7 +97,8 @@ a {
   transition-duration: .6s; }
 
 #mag {
-  color: #4B4083; }
+  color: #4B4083;
+  opacity: 1; }
 
 #extras {
   color: #E9707F; }
@@ -147,5 +142,12 @@ a {
 .post_content .date {
   font-size: .7em;
   font-style: italic; }
+
+#footer p {
+  width: 80%;
+  margin: auto;
+  font-family: "Helvetica", sans-serif;
+  font-size: .75em;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
