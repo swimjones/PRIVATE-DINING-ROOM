@@ -145,13 +145,16 @@ a {
   font-size: .7em;
   font-style: italic; }
 
+/*#post_atf {
+	height:					80vh;
+}*/
 #post_atf h1 {
   width: 90%;
   margin: auto;
   font-family: "CharterBI", serif;
   text-align: center;
   padding-top: 40px;
-  font-size: 1.6em;
+  font-size: 2em;
   margin-bottom: 10px; }
 
 .atf_info {
@@ -160,7 +163,7 @@ a {
   text-align: center;
   font-family: "Helvetica", sans-serif;
   font-weight: 100;
-  font-size: .8em; }
+  font-size: .6em; }
 
 #post_atf p {
   width: 80%;
@@ -171,10 +174,27 @@ a {
   font-size: 1em; }
 
 #post_atf p a {
+  padding-top: 40px;
   font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 2em;
-  text-decoration: underline; }
+  text-decoration: underline;
+  padding-bottom: 30px; }
+
+#single_article img {
+  width: 100% !important;
+  height: auto !important; }
+
+#single_article .p1,
+#single_article .p2,
+#single_article .p3 {
+  width: 95%;
+  font-family: "Frank Ruhl Libre", serif;
+  margin: auto;
+  padding: 10px 0px 10px 0px; }
+
+.p3 {
+  font-size: 1.5em; }
 
 #footer p {
   width: 80%;

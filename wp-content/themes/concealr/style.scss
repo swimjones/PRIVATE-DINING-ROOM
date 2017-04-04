@@ -208,13 +208,17 @@ a {
 
 // START SINGLE PAGE //
 
+/*#post_atf {
+	height:					80vh;
+}*/
+
 #post_atf h1 {
 	width:					90%;
 	margin:					auto;
 	font-family:			$post_title_FS;
 	text-align:				center;
 	padding-top:			40px;
-	font-size:				1.6em;
+	font-size:				2em;
 	margin-bottom:			10px;
 }
 
@@ -224,7 +228,7 @@ a {
 	text-align:				center;
 	font-family:			$header_title_FS;
 	font-weight:			100;
-	font-size:				.8em;
+	font-size:				.6em;
 }
 
 #post_atf p{
@@ -237,10 +241,30 @@ a {
 }
 
 #post_atf p a {
+	padding-top:			40px;
 	font-family:			$menu_FS;
 	font-weight:			400;
 	font-size:				2em;
 	text-decoration:		underline;
+	padding-bottom:			30px;
+}
+
+#single_article img {
+	width:					100% !important;
+	height:					auto !important;
+}
+
+#single_article .p1, 
+#single_article .p2, 
+#single_article .p3 {
+	width:					95%;
+	font-family:			$reader_FS;
+	margin:					auto;
+	padding:				10px 0px 10px 0px;
+}
+
+.p3 {
+	font-size:				1.5em;
 }
 
 // END SINGLE PAGE //

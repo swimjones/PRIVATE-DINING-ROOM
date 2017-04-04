@@ -10,8 +10,11 @@
 			<br><br>
 			<?php echo the_excerpt();?>
 			<br><br>
-			<p><a href="#single_article">See full story</a></p>
+			<p><a href="#single_article">Read more</a></p>
 			<br><br>
+		</div>
+		<div id=single_article>
+			<?php the_content(); ?>
 		</div>
 	<?php endwhile; else: ?>
 <p><?php _e('Sorry! We can\'t find that post :-(.');?></p><?php endif; ?>
