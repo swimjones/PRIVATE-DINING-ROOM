@@ -145,14 +145,26 @@ a {
   font-size: .7em;
   font-style: italic; }
 
-/*#post_atf {
-	height:					80vh;
-}*/
+#post_atf {
+  position: relative;
+  background-color: #E9707F;
+  height: 100vh; }
+
+#atf_content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  border: 1px dotted #E9707F;
+  background-color: white; }
+
 #post_atf h1 {
   width: 90%;
   margin: auto;
   font-family: "CharterBI", serif;
   text-align: center;
+  color: #E9707F;
   padding-top: 40px;
   font-size: 2em;
   margin-bottom: 10px; }
@@ -162,6 +174,7 @@ a {
   margin: auto;
   text-align: center;
   font-family: "Helvetica", sans-serif;
+  color: #E9707F;
   font-weight: 100;
   font-size: .6em; }
 
@@ -169,9 +182,10 @@ a {
   width: 80%;
   margin: auto;
   text-align: center;
+  color: #E9707F;
   font-family: "Helvetica", sans-serif;
   font-weight: 100;
-  font-size: 1em; }
+  font-size: .8em; }
 
 #post_atf p a {
   padding-top: 40px;
@@ -179,7 +193,7 @@ a {
   font-weight: 400;
   font-size: 2em;
   text-decoration: underline;
-  padding-bottom: 30px; }
+  animation: fade 3s infinite; }
 
 #single_article img {
   width: 100% !important;
@@ -194,7 +208,8 @@ a {
   padding: 10px 0px 10px 0px; }
 
 .p3 {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-weight: bold; }
 
 #footer p {
   width: 80%;
@@ -202,5 +217,13 @@ a {
   font-family: "Helvetica", sans-serif;
   font-size: 1em;
   color: white; }
+
+@keyframes fade {
+  0% {
+    color: #E9707F; }
+  50% {
+    color: white; }
+  100% {
+    color: #E9707F; } }
 
 /*# sourceMappingURL=style.css.map */

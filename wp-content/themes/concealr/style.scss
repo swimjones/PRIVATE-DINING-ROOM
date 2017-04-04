@@ -208,15 +208,28 @@ a {
 
 // START SINGLE PAGE //
 
-/*#post_atf {
-	height:					80vh;
-}*/
+#post_atf {
+	position:				relative;
+	background-color:		$new_red;
+	height:					100vh;
+}
+
+#atf_content {
+	position:				absolute;
+	top:					45%;
+	left:					50%;
+	transform:				translate(-50%,-50%);
+	width:					90%;
+	border:					1px dotted $new_red;
+	background-color:		white;
+}
 
 #post_atf h1 {
 	width:					90%;
 	margin:					auto;
 	font-family:			$post_title_FS;
 	text-align:				center;
+	color:					$new_red;
 	padding-top:			40px;
 	font-size:				2em;
 	margin-bottom:			10px;
@@ -227,6 +240,7 @@ a {
 	margin:					auto;
 	text-align:				center;
 	font-family:			$header_title_FS;
+	color:					$new_red;
 	font-weight:			100;
 	font-size:				.6em;
 }
@@ -235,9 +249,10 @@ a {
 	width:					80%;
 	margin:					auto;
 	text-align:				center;
+	color:					$new_red;
 	font-family:			$header_title_FS;
 	font-weight:			100;
-	font-size:				1em;
+	font-size:				.8em;
 }
 
 #post_atf p a {
@@ -246,7 +261,7 @@ a {
 	font-weight:			400;
 	font-size:				2em;
 	text-decoration:		underline;
-	padding-bottom:			30px;
+	animation:				fade 3s infinite;
 }
 
 #single_article img {
@@ -265,6 +280,7 @@ a {
 
 .p3 {
 	font-size:				1.5em;
+	font-weight:			bold;
 }
 
 // END SINGLE PAGE //
@@ -281,7 +297,13 @@ a {
 
 // END FOOTER //
 
+// START ANIMATIONS //
 
+@keyframes fade {
+	0%{color:$new_red;}
+	50%{color:white;}
+	100%{color:$new_red;}
+}
 
 
 
