@@ -60,6 +60,11 @@ a {
 	background-color:		$new_red;
 }
 
+.thin-helv {
+	font-family:			$header_title_FS;
+	font-weight:			100;
+}
+
 // END ALL-AROUND SELECTIONS // 
 
 // START HEADER // 
@@ -185,22 +190,60 @@ a {
 }
 
 .post_content p {
-	font-family:			$header_title_FS;
-	font-weight:			100;
 	font-size:				.8em;
 	width:					75%;
 	padding-top:			1%;
 	position:				relative;
 	right:					-10px;
+	font-weight:			100;
+	font-family:			$header_title_FS;
 }
 
-.post_content .date {
+.date {
 	font-size:				.7em;
 	font-style:				italic;
 }
 
 // END INDEX PAGE //
 
+// START SINGLE PAGE //
+
+#post_atf h1 {
+	width:					90%;
+	margin:					auto;
+	font-family:			$post_title_FS;
+	text-align:				center;
+	padding-top:			40px;
+	font-size:				1.6em;
+	margin-bottom:			10px;
+}
+
+.atf_info {
+	width:					40%;
+	margin:					auto;
+	text-align:				center;
+	font-family:			$header_title_FS;
+	font-weight:			100;
+	font-size:				.8em;
+}
+
+#post_atf p{
+	width:					80%;
+	margin:					auto;
+	text-align:				center;
+	font-family:			$header_title_FS;
+	font-weight:			100;
+	font-size:				1em;
+}
+
+#post_atf p a {
+	font-family:			$menu_FS;
+	font-weight:			400;
+	font-size:				2em;
+	text-decoration:		underline;
+}
+
+// END SINGLE PAGE //
 
 // START FOOTER // 
 
@@ -208,11 +251,17 @@ a {
 	width:					80%;
 	margin:					auto;
 	font-family:			$header_title_FS;
-	font-size:				.75em;
+	font-size:				1em;
 	color:					white;
 }
 
 // END FOOTER //
+
+
+
+
+
+
 
 
 
