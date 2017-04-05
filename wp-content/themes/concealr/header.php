@@ -14,9 +14,9 @@
 	<h1><a href="http://privatediningroom/">PRIVATE DINING ROOM</a></h1>
 	<a id=pipes_button href="javascript:void(0)" onclick="bye_menu();"><img src="<?php echo get_stylesheet_directory_uri();?>/resources/svg/menu_pipes.svg"></a>
 	<ul class=no_menu>
-		<li><a id=mag href="#">magazine</a></li>
-		<li><a id=extras href="#">extras</a></li>
-		<li><a id=info href="#">info</a></li>
+		<li><a id=mag href="#">our ideas/<span style="font-size:.6em;font-style:italic">an online publication</span></a></li>
+		<li><a id=extras href="#">our products/<span style="font-size:.6em;font-style:italic">the things we do</span></a></li>
+		<li><a id=info href="#">our philosophy/<span style="font-size:.6em;font-style:italic">who we are</span></a></li>
 	</ul>
 </div>
 
