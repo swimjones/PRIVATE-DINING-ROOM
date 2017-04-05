@@ -287,6 +287,19 @@ a {
 	font-weight:			bold;
 }
 
+blockquote {
+	border-left:			10px solid $new_tan;
+	padding:				15px;
+	position:				relative;
+	left:					-5%;
+}
+blockquote .p1 {
+	font-family:			$reader_FS;
+	color:					$new_tan;
+	font-size:				1.4em;
+	line-height:			1em;
+}
+
 // END SINGLE PAGE //
 
 // START FOOTER // 

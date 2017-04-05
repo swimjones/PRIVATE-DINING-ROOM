@@ -214,6 +214,18 @@ a {
   font-size: 1.5em;
   font-weight: bold; }
 
+blockquote {
+  border-left: 10px solid #FFB56A;
+  padding: 15px;
+  position: relative;
+  left: -5%; }
+
+blockquote .p1 {
+  font-family: "Frank Ruhl Libre", serif;
+  color: #FFB56A;
+  font-size: 1.4em;
+  line-height: 1em; }
+
 #footer p {
   width: 90%;
   margin: auto;
