@@ -202,17 +202,17 @@ a {
   width: 100% !important;
   height: auto !important; }
 
-#single_article .p1,
-#single_article .p2,
-#single_article .p3 {
+#single_article p {
   width: 95%;
   font-family: "Frank Ruhl Libre", serif;
   margin: auto;
   padding: 10px 0px 10px 0px; }
 
-.p3 {
-  font-size: 1.5em;
-  font-weight: bold; }
+#single_article .p3 {
+  font-family: "Arial", sans-serif;
+  font-size: 1.4em;
+  font-weight: 700;
+  padding: 35px 0px 10px 0px; }
 
 blockquote {
   border-left: 10px solid #FFB56A;

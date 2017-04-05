@@ -273,18 +273,18 @@ a {
 	height:					auto !important;
 }
 
-#single_article .p1, 
-#single_article .p2, 
-#single_article .p3 {
+#single_article p {
 	width:					95%;
 	font-family:			$reader_FS;
 	margin:					auto;
 	padding:				10px 0px 10px 0px;
 }
 
-.p3 {
-	font-size:				1.5em;
-	font-weight:			bold;
+#single_article .p3 {
+	font-family:			$menu_FS;
+	font-size:				1.4em;
+	font-weight:			700;
+	padding:				35px 0px 10px 0px;
 }
 
 blockquote {

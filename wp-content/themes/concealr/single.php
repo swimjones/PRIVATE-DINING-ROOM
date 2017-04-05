@@ -18,11 +18,6 @@
 		<div id=single_article>
 			<?php the_content(); ?>
 		</div>
-		<div id=social_buttons>
-			<div id=fb></div>
-			<div id=twitter></div>
-			<div id=pin></div>
-		</div>
 	<?php endwhile; else: ?>
 <p><?php _e('Sorry! We can\'t find that post :-(.');?></p><?php endif; ?>
 </div> <!-- #content end -->
