@@ -13,6 +13,8 @@
 				<br><br>
 				<p><a href="#single_article">Read more</a></p>
 				<br><br>
+				<p><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+				<br><br>
 			</div>
 		</div>
 		<div id=single_article>
