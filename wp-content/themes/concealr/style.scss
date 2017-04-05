@@ -230,41 +230,31 @@ a {
 }
 
 #post_atf h1 {
-	width:					90%;
+	width:					85%;
 	margin:					auto;
 	font-family:			$post_title_FS;
 	text-align:				center;
 	color:					$new_red;
 	padding-top:			40px;
-	font-size:				2em;
+	font-size:				1.6em;
 	margin-bottom:			10px;
 }
 
-.atf_info {
-	width:					40%;
-	margin:					auto;
-	text-align:				center;
-	font-family:			$header_title_FS;
-	color:					$new_red;
-	font-weight:			100;
-	font-size:				.6em;
-}
-
 #post_atf p{
-	width:					80%;
+	width:					70%;
 	margin:					auto;
 	text-align:				center;
 	color:					$new_red;
 	font-family:			$header_title_FS;
 	font-weight:			100;
-	font-size:				.8em;
+	font-size:				.9em;
 }
 
-#post_atf p a {
+#readmore {
 	padding-top:			40px;
 	font-family:			$menu_FS;
 	font-weight:			400;
-	font-size:				2em;
+	font-size:				1.6em;
 	text-decoration:		underline;
 	animation:				fade 2s infinite;
 }

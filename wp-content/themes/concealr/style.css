@@ -164,38 +164,29 @@ a {
   background-color: white; }
 
 #post_atf h1 {
-  width: 90%;
+  width: 85%;
   margin: auto;
   font-family: "CharterBI", serif;
   text-align: center;
   color: #E9707F;
   padding-top: 40px;
-  font-size: 2em;
+  font-size: 1.6em;
   margin-bottom: 10px; }
 
-.atf_info {
-  width: 40%;
-  margin: auto;
-  text-align: center;
-  font-family: "Helvetica", sans-serif;
-  color: #E9707F;
-  font-weight: 100;
-  font-size: .6em; }
-
 #post_atf p {
-  width: 80%;
+  width: 70%;
   margin: auto;
   text-align: center;
   color: #E9707F;
   font-family: "Helvetica", sans-serif;
   font-weight: 100;
-  font-size: .8em; }
+  font-size: .9em; }
 
-#post_atf p a {
+#readmore {
   padding-top: 40px;
   font-family: "Arial", sans-serif;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1.6em;
   text-decoration: underline;
   animation: fade 2s infinite; }
 
