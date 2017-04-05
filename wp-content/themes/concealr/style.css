@@ -197,7 +197,7 @@ a {
   font-weight: 400;
   font-size: 2em;
   text-decoration: underline;
-  animation: fade 3s infinite; }
+  animation: fade 2s infinite; }
 
 #single_article img {
   width: 100% !important;
@@ -227,18 +227,6 @@ blockquote .p1 {
   font-size: 1.4em;
   line-height: 1em; }
 
-#social_buttons {
-  width: 95%;
-  margin: auto;
-  padding-bottom: 10px; }
-
-#fb, #twit {
-  display: inline-block; }
-
-#fb img, #twit img {
-  width: 3.8em;
-  height: auto; }
-
 #footer p {
   width: 90%;
   margin: auto;
@@ -249,10 +237,10 @@ blockquote .p1 {
 
 @keyframes fade {
   0% {
-    color: #E9707F; }
+    opacity: 1; }
   50% {
-    color: white; }
+    opacity: .5; }
   100% {
-    color: #E9707F; } }
+    opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */

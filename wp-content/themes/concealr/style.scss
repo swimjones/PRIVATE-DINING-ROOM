@@ -266,7 +266,7 @@ a {
 	font-weight:			400;
 	font-size:				2em;
 	text-decoration:		underline;
-	animation:				fade 3s infinite;
+	animation:				fade 2s infinite;
 }
 
 #single_article img {
@@ -301,21 +301,6 @@ blockquote .p1 {
 	line-height:			1em;
 }
 
-#social_buttons {
-	width:					95%;
-	margin:					auto;
-	padding-bottom:			10px;
-}
-
-#fb, #twit{
-	display:				inline-block;
-}
-
-#fb img, #twit img {
-	width:					3.8em;
-	height:					auto;
-}
-
 // END SINGLE PAGE //
 
 // START FOOTER // 
@@ -334,9 +319,9 @@ blockquote .p1 {
 // START ANIMATIONS //
 
 @keyframes fade {
-	0%{color:$new_red;}
-	50%{color:white;}
-	100%{color:$new_red;}
+	0%{opacity:1}
+	50%{opacity:.5}
+	100%{opacity:1}
 }
 
 
