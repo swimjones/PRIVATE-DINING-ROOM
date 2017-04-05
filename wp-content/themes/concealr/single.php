@@ -18,6 +18,10 @@
 		<div id=single_article>
 			<?php the_content(); ?>
 		</div>
+		<div id=social_buttons>
+			<div id=fb><img src="<?php echo get_stylesheet_directory_uri();?>/resources/svg/fb.svg"></div>
+			<div id=twit><img src="<?php echo get_stylesheet_directory_uri();?>/resources/svg/twitter.svg"></div>
+		</div>
 	<?php endwhile; else: ?>
 <p><?php _e('Sorry! We can\'t find that post :-(.');?></p><?php endif; ?>
 </div> <!-- #content end -->

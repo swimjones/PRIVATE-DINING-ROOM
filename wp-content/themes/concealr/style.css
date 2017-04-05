@@ -213,7 +213,7 @@ a {
   font-family: "Arial", sans-serif;
   font-size: 1.4em;
   font-weight: 700;
-  padding: 35px 0px 10px 0px; }
+  padding: 20px 0px 10px 0px; }
 
 blockquote {
   border-left: 10px solid #FFB56A;
@@ -226,6 +226,18 @@ blockquote .p1 {
   color: #FFB56A;
   font-size: 1.4em;
   line-height: 1em; }
+
+#social_buttons {
+  width: 95%;
+  margin: auto;
+  padding-bottom: 10px; }
+
+#fb, #twit {
+  display: inline-block; }
+
+#fb img, #twit img {
+  width: 3.8em;
+  height: auto; }
 
 #footer p {
   width: 90%;
