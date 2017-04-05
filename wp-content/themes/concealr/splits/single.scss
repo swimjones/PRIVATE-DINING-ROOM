@@ -1,0 +1,76 @@
+#post_atf {
+	position:				relative;
+	background-color:		$new_red;
+	height:					100vh;
+}
+
+#atf_content {
+	position:				absolute;
+	top:					45%;
+	left:					50%;
+	transform:				translate(-50%,-50%);
+	width:					90%;
+	background-color:		white;
+}
+
+#post_atf h1 {
+	width:					85%;
+	margin:					auto;
+	font-family:			$post_title_FS;
+	text-align:				center;
+	color:					$new_red;
+	padding-top:			40px;
+	font-size:				1.6em;
+	margin-bottom:			10px;
+}
+
+#post_atf p{
+	width:					75%;
+	margin:					auto;
+	text-align:				center;
+	color:					$new_red;
+	font-family:			$header_title_FS;
+	font-weight:			100;
+	font-size:				.9em;
+}
+
+#readmore {
+	padding-top:			40px;
+	font-family:			$post_title_FS;
+	font-weight:			400;
+	font-size:				1.6em;
+	text-decoration:		underline;
+	animation:				fade 2s infinite;
+}
+
+#single_article img {
+	width:					100% !important;
+	height:					auto !important;
+}
+
+#single_article p {
+	width:					95%;
+	font-family:			$reader_FS;
+	margin:					auto;
+	padding:				10px 0px 10px 0px;
+}
+
+#single_article .p3 {
+	font-family:			$menu_FS;
+	font-size:				1.4em;
+	font-weight:			700;
+	padding:				20px 0px 10px 0px;
+}
+
+blockquote {
+	border-left:			10px solid $new_tan;
+	padding:				15px;
+	position:				relative;
+	left:					-5%;
+}
+blockquote .p1 {
+	font-family:			$reader_FS;
+	color:					$new_tan;
+	font-size:				1.4em;
+	line-height:			1em;
+}
