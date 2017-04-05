@@ -5,23 +5,11 @@
 	Tags: hoe
 */
 
-// START FONT-DECLARATIONS //
-
-@font-face {
-	font-family:			"CharterBI";
-	src:					url("resources/fonts/Charter.woff");
-	font-weight:			normal;
-	font-style:				normal;
-	font-size:				16px;
-}
-
-// END FONT-DECLARATIONS //
-
 // START VARIABLES AND MIXINS // 
 
 $header_title_FS: 			"Helvetica", sans-serif;
 $reader_FS: 				"Frank Ruhl Libre", serif;
-$post_title_FS:				"CharterBI", serif;
+$post_title_FS:					"Source Serif Pro", serif;
 $menu_FS:					"Arial", sans-serif;
 
 $new_blue:					#4951FF;
