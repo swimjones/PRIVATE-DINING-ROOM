@@ -1,15 +1,19 @@
+.post_box {
+	position:				relative;
+}
+
 .post_box img {
 	width:					100%;
 	height:					auto;
 }
 
-.post_content { 
-	width:					90%;
-	padding:				2% 0 5% 5%;
+.post_content h2 {
+	padding:				0 0 2% 0; 					
 }
 
-.post_content h2 {
-	padding:				3%;	
+.post_content {
+	width:					90%;
+	padding:				2% 0 5% 5%;
 }
 
 .title_link {
@@ -35,10 +39,8 @@
 
 .post_content p {
 	font-size:				.8em;
+	padding:				2px 0px 2px 0px; 
 	width:					75%;
-	padding-top:			1%;
-	position:				relative;
-	right:					-10px;
 	font-weight:			100;
 	font-family:			$header_title_FS;
 }

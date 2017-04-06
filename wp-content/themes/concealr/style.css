@@ -98,16 +98,19 @@ a {
 #info {
   color: #FFB56A; }
 
+.post_box {
+  position: relative; }
+
 .post_box img {
   width: 100%;
   height: auto; }
 
+.post_content h2 {
+  padding: 0 0 2% 0; }
+
 .post_content {
   width: 90%;
   padding: 2% 0 5% 5%; }
-
-.post_content h2 {
-  padding: 3%; }
 
 .title_link {
   font-family: "Source Serif Pro", serif;
@@ -127,10 +130,8 @@ a {
 
 .post_content p {
   font-size: .8em;
+  padding: 2px 0px 2px 0px;
   width: 75%;
-  padding-top: 1%;
-  position: relative;
-  right: -10px;
   font-weight: 100;
   font-family: "Helvetica", sans-serif; }
 
@@ -221,5 +222,59 @@ blockquote .p1 {
     opacity: .5; }
   100% {
     opacity: 1; } }
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  #content {
+    padding-top: 20px;
+    width: 80%;
+    margin: auto; }
+
+  .post_content {
+    padding: 2% 0 5% 0; }
+
+  .post_content p {
+    width: 70%; } }
+@media screen and (min-width: 600px) and (max-width: 849px) {
+  .post_content h2 {
+    width: 90%;
+    font-size: 1.8em;
+    margin: auto;
+    text-align: center; }
+
+  .post_content p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 1em; }
+
+  .post_content p:last-child {
+    padding-top: 3%; } }
+@media screen and (min-width: 850px) {
+  #content {
+    padding-top: 20px; }
+
+  .post_box {
+    width: 80%;
+    margin: auto; }
+
+  .post_content {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+  .post_box img {
+    display: inline-block;
+    width: 60%;
+    height: auto;
+    padding: 0; }
+
+  .post_content p {
+    width: 80%; }
+
+  .post_content p:last-child {
+    padding-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
