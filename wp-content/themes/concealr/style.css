@@ -28,7 +28,7 @@ a {
   z-index: 1; }
 
 .default {
-  background-color: #E9707F;
+  background-color: #4951FF;
   width: 100%;
   height: 60px;
   position: fixed;
@@ -141,7 +141,7 @@ a {
 
 #post_atf {
   position: relative;
-  background-color: #E9707F;
+  background-color: #4951FF;
   height: 100vh; }
 
 #atf_content {
@@ -234,6 +234,11 @@ blockquote .p1 {
   .post_content p {
     width: 70%; } }
 @media screen and (min-width: 600px) and (max-width: 849px) {
+  #content {
+    padding-top: 20px;
+    width: 80%;
+    margin: auto; }
+
   .post_content h2 {
     width: 90%;
     font-size: 1.8em;
