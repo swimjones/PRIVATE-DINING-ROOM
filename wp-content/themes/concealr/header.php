@@ -12,12 +12,14 @@
 </head>
 <div id=wrapper>
 <div id=header class=default>
-	<h1><a href="http://privatediningroom/">PRIVATE DINING ROOM</a></h1>
-	<a id=pipes_button href="javascript:void(0)" onclick="bye_menu();"><img src="<?php echo get_stylesheet_directory_uri();?>/resources/svg/menu_pipes.svg"></a>
+	<div id=header_nav>
+		<h1><a href="http://privatediningroom/">PRIVATE DINING ROOM</a></h1>
+		<a id=pipes_button href="javascript:void(0)" onclick="bye_menu();">&#9776;</a>
+	</div>
 	<ul class=no_menu>
-		<li><a id=mag href="#">our ideas/<span style="font-size:.6em;font-style:italic">an online publication</span></a></li>
-		<li><a id=extras href="#">our products/<span style="font-size:.6em;font-style:italic">the things we do</span></a></li>
-		<li><a id=info href="#">our philosophy/<span style="font-size:.6em;font-style:italic">who we are</span></a></li>
+		<li><a id=mag href="#">our ideas/<span class=menu_desc>an online publication</span></a></li>
+		<li><a id=extras href="#">our products/<span class=menu_desc>the things we do</span></a></li>
+		<li><a id=info href="#">our philosophy/<span class=menu_desc>who we are</span></a></li>
 	</ul>
 </div>
 

@@ -27,6 +27,12 @@ a {
 #header {
   z-index: 1; }
 
+#header_nav {
+  position: relative;
+  top: 35%;
+  width: 100%;
+  padding: 0px 10px 0px 10px; }
+
 .default {
   background-color: #4951FF;
   width: 100%;
@@ -44,20 +50,20 @@ a {
   font-family: "Helvetica", sans-serif;
   font-weight: 700;
   display: inline-block;
-  font-size: 1.15em;
-  padding-left: 20px; }
+  font-size: 1.15em; }
 
 #header h1 a {
-  position: relative;
-  top: 20px;
   text-decoration: none;
   color: white; }
 
-#header img {
-  position: absolute;
-  height: 15px;
-  right: 5%;
-  top: 39%; }
+#pipes_button {
+  float: right;
+  color: white;
+  height: auto;
+  font-size: 1.15em;
+  position: relative;
+  top: -4px;
+  padding: 0px 2% 0px 0px; }
 
 #header ul li {
   margin: auto;
@@ -88,6 +94,10 @@ a {
   position: relative;
   top: -500px;
   transition-duration: .6s; }
+
+.menu_desc {
+  font-size: .6em;
+  font-style: italic; }
 
 #mag {
   color: #4B4083; }
