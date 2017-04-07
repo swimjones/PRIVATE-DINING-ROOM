@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <div id=main>
 <div id=content>
+<h2 style="width:70%;margin:auto;font-size:4em;text-align:center;color:pink;padding:15px 0 30px 0;">I WISH A NIGGA WOULD... BUT KODAK WOULD KILL ME</h2>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div class=post_box>
 			<a href="<?php echo get_post_permalink();?>"><?php echo get_the_post_thumbnail(); ?></a>
