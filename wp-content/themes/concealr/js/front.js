@@ -1,3 +1,16 @@
+// START CLOSING + OPENING NAV MENU // ---------------------->
+
+function bye_menu() {
+    if($("#header ul").hasClass("show_menu")) {
+        $("#header ul").removeClass("show_menu").addClass("no_menu");
+        return false;
+    } else {
+            $("#header ul").removeClass("no_menu").addClass("show_menu");
+            return false; 
+        }
+}
+
+// START CLOSING + OPENING NAV MENU // ---------------------->
 // START HIDE MENU ON SCROLL // ---------------------->
 
 var didScroll;
