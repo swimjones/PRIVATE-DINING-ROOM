@@ -1,295 +1,42 @@
-* {
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "... "general.scss"": expected "{", was ";"
+        on line 1 of style.scss
 
-body {
-  margin: 0;
-  padding-top: 60px;
-  box-sizing: border-box; }
+1: import "general.scss";
+2: @import "header.scss";
+3: @import "index.scss";
+4: @import "single.scss";
+5: @import "footer.scss";
+6: @import "animations.scss";
 
-h1, h2, h3, p {
-  margin: 0; }
-
-a {
-  text-decoration: none;
-  color: inherit; }
-
-#content {
-  display: block; }
-
-#footer {
-  padding: 20px 0 20px 0;
-  background-color: #E9707F; }
-
-.thin-helv {
-  font-family: "Helvetica", sans-serif;
-  font-weight: 100; }
-
-#header {
-  z-index: 1; }
-
-#header_nav {
-  position: relative;
-  top: 35%;
-  width: 100%;
-  padding: 0px 10px 0px 10px; }
-
-.default {
-  background-color: #4951FF;
-  width: 100%;
-  height: 60px;
-  position: fixed;
-  top: 0;
-  transition: top .2s ease-in-out; }
-
-.slide_up {
-  transition: top .2s ease-in-out;
-  position: absolute;
-  top: -50px; }
-
-#header h1 {
-  font-family: "Helvetica", sans-serif;
-  font-weight: 700;
-  display: inline-block;
-  font-size: 1.15em; }
-
-#header h1 a {
-  text-decoration: none;
-  color: white; }
-
-#pipes_button {
-  float: right;
-  color: white;
-  height: auto;
-  font-size: 1.15em;
-  position: relative;
-  top: -4px;
-  padding: 0px 2% 0px 0px; }
-
-#header ul li {
-  margin: auto;
-  text-align: left;
-  position: relative;
-  top: 20px;
-  left: -20px;
-  padding: 3em 0 1em 0; }
-
-#header ul li,
-#header ul li a {
-  list-style-type: none;
-  text-decoration: none;
-  text-align: left;
-  font-family: "Source Serif Pro", serif;
-  font-size: 1.3em; }
-
-.show_menu {
-  z-index: 1;
-  background-color: white;
-  opacity: .97;
-  position: relative;
-  top: 22px;
-  height: 100vh;
-  transition-duration: .4s; }
-
-.no_menu {
-  position: relative;
-  top: -500px;
-  transition-duration: .6s; }
-
-.menu_desc {
-  font-size: .6em;
-  font-style: italic; }
-
-#mag {
-  color: #4B4083; }
-
-#extras {
-  color: #E9707F; }
-
-#info {
-  color: #FFB56A; }
-
-.post_box {
-  position: relative; }
-
-.post_box img {
-  width: 100%;
-  height: auto; }
-
-.post_content h2 {
-  padding: 0 0 2% 0; }
-
-.post_content {
-  width: 90%;
-  padding: 2% 0 5% 5%; }
-
-.title_link {
-  font-family: "Source Serif Pro", serif;
-  font-size: .85em; }
-
-.title_link:link {
-  color: #E9707F; }
-
-.title_link:visited {
-  color: #FFB56A; }
-
-.title_link:hover {
-  color: #4B4083; }
-
-.title_link:active {
-  color: #FFB56A; }
-
-.post_content p {
-  font-size: .8em;
-  padding: 2px 0px 2px 0px;
-  width: 75%;
-  font-weight: 100;
-  font-family: "Helvetica", sans-serif; }
-
-.date {
-  font-size: .7em;
-  font-style: italic; }
-
-#post_atf {
-  position: relative;
-  background-color: #4951FF;
-  height: 100vh; }
-
-#atf_content {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  background-color: white; }
-
-#post_atf h1 {
-  width: 85%;
-  margin: auto;
-  font-family: "Source Serif Pro", serif;
-  text-align: center;
-  color: #E9707F;
-  padding-top: 40px;
-  font-size: 1.6em;
-  margin-bottom: 10px; }
-
-#post_atf p {
-  width: 75%;
-  margin: auto;
-  text-align: center;
-  color: #E9707F;
-  font-family: "Helvetica", sans-serif;
-  font-weight: 100;
-  font-size: .9em; }
-
-#readmore {
-  padding-top: 40px;
-  font-family: "Source Serif Pro", serif;
-  font-weight: 400;
-  font-size: 1.6em;
-  text-decoration: underline;
-  animation: fade 2s infinite; }
-
-#single_article img {
-  width: 100% !important;
-  height: auto !important; }
-
-#single_article p {
-  width: 95%;
-  font-family: "Frank Ruhl Libre", serif;
-  margin: auto;
-  padding: 10px 0px 10px 0px; }
-
-#single_article .p3 {
-  font-family: "Arial", sans-serif;
-  font-size: 1.4em;
-  font-weight: 700;
-  padding: 20px 0px 10px 0px; }
-
-blockquote {
-  border-left: 10px solid #FFB56A;
-  padding: 15px;
-  position: relative;
-  left: -5%; }
-
-blockquote .p1 {
-  font-family: "Frank Ruhl Libre", serif;
-  color: #FFB56A;
-  font-size: 1.4em;
-  line-height: 1em; }
-
-#footer p {
-  width: 90%;
-  margin: auto;
-  font-family: "Helvetica", sans-serif;
-  font-size: .7em;
-  color: white;
-  padding: 5px 0px 5px 0px; }
-
-@keyframes fade {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: .5; }
-  100% {
-    opacity: 1; } }
-@media screen and (min-width: 500px) and (max-width: 670px) {
-  #content {
-    padding-top: 20px;
-    width: 80%;
-    margin: auto; }
-
-  .post_content {
-    padding: 2% 0 5% 0; }
-
-  .post_content p {
-    width: 70%; } }
-@media screen and (min-width: 670px) and (max-width: 800px) {
-  #content {
-    width: 90%;
-    margin: auto;
-    padding-top: 20px; }
-
-  .post_content {
-    display: inline-block;
-    width: 38%;
-    height: 100%;
-    position: absolute;
-    top: 0; }
-
-  .post_box img {
-    display: inline-block;
-    width: 60%;
-    height: auto; }
-
-  .post_content h2 a {
-    font-size: .8em; } }
-@media screen and (min-width: 800px) {
-  #content {
-    padding-top: 20px; }
-
-  .post_box {
-    width: 80%;
-    margin: auto; }
-
-  .post_content {
-    display: inline-block;
-    width: 40%;
-    height: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    right: 0; }
-
-  .post_box img {
-    display: inline-block;
-    width: 60%;
-    height: auto;
-    padding: 0; }
-
-  .post_content p {
-    width: 80%; }
-
-  .post_content p:last-child {
-    padding-top: 20px; } }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+style.scss:1
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:674:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"... \"general.scss\"\": expected \"{\", was \";\"\A         on line 1 of style.scss\A \A 1: import \"general.scss\";\A 2: @import \"header.scss\";\A 3: @import \"index.scss\";\A 4: @import \"single.scss\";\A 5: @import \"footer.scss\";\A 6: @import \"animations.scss\";"; }
