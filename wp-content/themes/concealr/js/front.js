@@ -55,7 +55,6 @@ function hasScrolled() {
 
                 // changes menu svg back to normal if menu open while scroll up
                 if(($("#header ul").hasClass("no_menu")) && ($("#header").hasClass("default"))){
-                    $("#header img").attr("src", themePath + "resources/svg/menu_pipes.svg");
                 }
             }
         }
