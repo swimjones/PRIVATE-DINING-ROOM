@@ -25,12 +25,21 @@
 	}
 
 	blockquote {
-		width:					80%;
-		left:					1%;
+		width:					85%;
+		left:					.1%;
 	}
 
 	blockquote .p1 {
-		font-size:				1.7em;
+		font-size:				1.8em;
+	}
+
+	#single_article { 
+		width:					90%;
+		margin:					auto;
+	}
+
+	#single_article > .p1 {
+		font-size:				1.15em;
 	}
 
 	// END SINGLE PAGE //
@@ -86,6 +95,19 @@
 		font-size:				1.8em;
 	}
 
+	#single_article {
+		width:					85%;
+		margin:					auto;
+	}
+
+	#single_article > .p1 {
+		font-size:				1.2em;
+	}
+
+	#single_article .p3 {
+		font-size:				1.6em;
+	}
+
 	// END SINGLE PAGE //
 
 }
@@ -139,12 +161,33 @@
 
 	blockquote {
 		left:					2%;
-		width:					60%;
+		width:					85%;
 	}
 
 	blockquote .p1 {
-		font-size:				2em;
+		font-size:				1.8em;
+	}
+
+	#single_article {
+		width:					70%;
+		margin:					auto;
+	}
+
+	#single_article > .p1 {
+		font-size:				1.2em;
 	}
 	// END SINGLE PAGE //
-
 }
+
+@media screen and (min-width:1000px) {
+	#single_article { 
+		width:					57%;
+		margin:					auto;
+	}
+}
+
+
+
+
+
+

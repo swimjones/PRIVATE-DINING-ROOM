@@ -1,6 +1,6 @@
 #post_atf {
 	position:				relative;
-	background-color:		$new_blue;
+	background:				linear-gradient($new_blue, white);
 	height:					100vh;
 }
 
@@ -36,11 +36,14 @@
 #readmore {
 	padding-top:			40px;
 	font-family:			$header_title_FS;
-	color:					yellow;
+	color:					$new_blue;
 	font-weight:			700;
 	font-size:				1.8em;
 	text-decoration:		underline;
-	animation:				fade 2s infinite;
+}
+
+#readmore:hover {
+	text-decoration:		line-through;
 }
 
 #single_article img {
@@ -52,7 +55,7 @@
 	width:					93%;
 	font-family:			$reader_FS;
 	margin:					auto;
-	padding:				10px 0px 10px 0px;
+	padding:				1% 0px 1% 0px;
 }
 
 #single_article .p3 {

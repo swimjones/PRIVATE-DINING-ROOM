@@ -152,7 +152,7 @@ a {
 
 #post_atf {
   position: relative;
-  background-color: #4951FF;
+  background: linear-gradient(#4951FF, white);
   height: 100vh; }
 
 #atf_content {
@@ -184,11 +184,13 @@ a {
 #readmore {
   padding-top: 40px;
   font-family: "Helvetica", sans-serif;
-  color: yellow;
+  color: #4951FF;
   font-weight: 700;
   font-size: 1.8em;
-  text-decoration: underline;
-  animation: fade 2s infinite; }
+  text-decoration: underline; }
+
+#readmore:hover {
+  text-decoration: line-through; }
 
 #single_article img {
   width: 100% !important;
@@ -198,7 +200,7 @@ a {
   width: 93%;
   font-family: "Frank Ruhl Libre", serif;
   margin: auto;
-  padding: 10px 0px 10px 0px; }
+  padding: 1% 0px 1% 0px; }
 
 #single_article .p3 {
   font-family: "Arial", sans-serif;
@@ -226,13 +228,6 @@ blockquote .p1 {
   color: white;
   padding: 5px 0px 5px 0px; }
 
-@keyframes fade {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
 @media screen and (min-width: 500px) and (max-width: 670px) {
   .post_box {
     width: 90%;
@@ -248,11 +243,18 @@ blockquote .p1 {
     font-size: 3.2em; }
 
   blockquote {
-    width: 80%;
-    left: 1%; }
+    width: 85%;
+    left: .1%; }
 
   blockquote .p1 {
-    font-size: 1.7em; } }
+    font-size: 1.8em; }
+
+  #single_article {
+    width: 90%;
+    margin: auto; }
+
+  #single_article > .p1 {
+    font-size: 1.15em; } }
 @media screen and (min-width: 670px) and (max-width: 800px) {
   .post_box {
     width: 90%;
@@ -285,7 +287,17 @@ blockquote .p1 {
     left: 1%; }
 
   blockquote .p1 {
-    font-size: 1.8em; } }
+    font-size: 1.8em; }
+
+  #single_article {
+    width: 85%;
+    margin: auto; }
+
+  #single_article > .p1 {
+    font-size: 1.2em; }
+
+  #single_article .p3 {
+    font-size: 1.6em; } }
 @media screen and (min-width: 800px) {
   .post_box {
     width: 80%;
@@ -321,9 +333,20 @@ blockquote .p1 {
 
   blockquote {
     left: 2%;
-    width: 60%; }
+    width: 85%; }
 
   blockquote .p1 {
-    font-size: 2em; } }
+    font-size: 1.8em; }
+
+  #single_article {
+    width: 70%;
+    margin: auto; }
+
+  #single_article > .p1 {
+    font-size: 1.2em; } }
+@media screen and (min-width: 1000px) {
+  #single_article {
+    width: 57%;
+    margin: auto; } }
 
 /*# sourceMappingURL=style.css.map */
