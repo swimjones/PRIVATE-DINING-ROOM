@@ -39,13 +39,12 @@
 }
 
 #pipes_button { 
+	display:				inline-block;
 	float:					right;
 	color:					white;
-	height:					auto;
 	font-size:				1.15em;
 	position:				relative;
-	top:					-4px;
-	padding:				0px 2% 0px 0px;
+	top:					-3.5px;
 }
 
 #header ul li {

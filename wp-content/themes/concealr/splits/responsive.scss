@@ -52,6 +52,20 @@
 
 @media screen and (min-width:670px) and (max-width:800px) {
 
+	// START HEADER //
+
+	#header_nav h1 {
+		display:				block;
+		text-align:				center;
+	}
+
+	#pipes_button {
+		position:				relative;
+		top:					-25px;
+	}
+
+	// END HEADER //
+
 	// START INDEX PAGE //
 
 	.post_box {
@@ -118,6 +132,20 @@
 }
 
 @media screen and (min-width:800px) {
+
+	// START HEADER //
+
+	#header_nav h1 {
+		display:				block;
+		text-align:				center;
+	}
+
+	#pipes_button {
+		position:				relative;
+		top:					-25px;
+	}
+
+	// END HEADER //
 
 	// START INDEX PAGE //
 
