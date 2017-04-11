@@ -17,8 +17,8 @@
 		<a id=pipes_button href="javascript:void(0)" onclick="bye_menu();">&#9776;</a>
 	</div>
 	<ul class=no_menu>
-		<li><a id=mag href="#">our ideas/<span class=menu_desc>an online publication</span></a></li>
-		<li><a id=extras href="#">our products/<span class=menu_desc>the things we do</span></a></li>
+		<li><a id=mag href="#">our ideas/<span class=menu_desc>what we think</span></a></li>
+		<li><a id=extras href="#">our products/<span class=menu_desc>what we do</span></a></li>
 		<li><a id=info href="#">our philosophy/<span class=menu_desc>who we are</span></a></li>
 	</ul>
 </div>

@@ -1,6 +1,16 @@
 
 @media screen and (min-width:500px) and (max-width:670px) {
 
+	// START HEADER //
+
+	#header ul li,
+	#header ul li a {
+		text-align:				center;
+		font-size:				1.4em;
+	}
+
+	// END HEADER //
+
 	// START INDEX PAGE //
 
 	.post_box {
@@ -62,6 +72,12 @@
 	#pipes_button {
 		position:				relative;
 		top:					-25px;
+	}
+
+	#header ul li,
+	#header ul li a {
+		text-align:				center;
+		font-size:				1.6em;
 	}
 
 	// END HEADER //
@@ -143,6 +159,12 @@
 	#pipes_button {
 		position:				relative;
 		top:					-25px;
+	}
+
+	#header ul li,
+	#header ul li a {
+		text-align:				center;
+		font-size:				1.5em;
 	}
 
 	// END HEADER //
