@@ -19,6 +19,7 @@
 		</div>
 		<div id=single_article>
 			<?php the_content(); ?>
+			<p style="text-align:center;font-size:3em;">-</p>
 		</div>
 	<?php endwhile; else: ?>
 <p><?php _e('POST NOT FOUND');?></p><?php endif; ?>
