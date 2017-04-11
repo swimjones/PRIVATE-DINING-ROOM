@@ -1,0 +1,16 @@
+#philo_atf {
+	background:				linear-gradient($new_blue, white);
+	height:					100vh;
+}
+
+#philo_atf p {
+	font-family: 			$reader_FS;
+	font-size:				1.2em;
+	color:					white;
+	width:					80%;
+	margin:					auto;
+	position:				absolute;
+	top:					50%;
+	left:					50%;
+	transform: 				translate(-50%,-50%);
+}

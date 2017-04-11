@@ -67,6 +67,15 @@
 
 	// END FOOTER PAGE //
 
+	// START PHILO //
+
+	#philo_atf p {
+		font-size:				1.4em;
+		width:					60%;
+	}
+
+	// END PHILO //
+
 }
 
 @media screen and (min-width:670px) and (max-width:800px) {
@@ -162,6 +171,15 @@
 	}
 
 	// END FOOTER PAGE //
+
+	// START PHILO //
+
+	#philo_atf p {
+		font-size:				1.5em;
+		width:					60%;
+	}
+
+	// END PHILO //
 
 }
 
@@ -260,11 +278,20 @@
 	}
 
 	// END FOOTER PAGE //
+
+	// START PHILO //
+
+	#philo_atf p {
+		font-size:				2em;
+		width:					60%;
+	}
+
+	// END PHILO //
 }
 
 @media screen and (min-width:1000px) {
 	#single_article { 
-		width:					60%;
+		width:					70%;
 		margin:					auto;
 	}
 }
