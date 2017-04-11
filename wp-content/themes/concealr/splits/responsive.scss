@@ -1,8 +1,17 @@
-@media screen and (min-width:500px) and (max-width:670px){
-	#content {
-		padding-top:			20px;
-		width:					80%;
-		margin:					auto;	
+@media screen and (max-width:500px) {
+	blockquote {
+		position:				relative;
+		left:					-5%;
+	}
+}
+
+@media screen and (min-width:500px) and (max-width:670px) {
+
+	// START INDEX PAGE //
+
+	.post_box {
+		width:					90%;
+		margin:					20px auto auto auto;
 	}
 
 	.post_content {
@@ -12,14 +21,26 @@
 	.post_content p {
 		width:					70%;
 	}
+
+	// END INDEX PAGE //
+
+	// START SINGLE PAGE //
+
+	#post_atf h1 {
+		font-size:				3.2em;
+	}
+
+	// END SINGLE PAGE //
+
 }
 
 @media screen and (min-width:670px) and (max-width:800px) {
 
-	#content {
+	// START INDEX PAGE //
+
+	.post_box {
 		width:					90%;
-		margin:					auto;
-		padding-top:			20px;
+		margin:					20px auto auto auto;
 	}
 
 	.post_content {
@@ -40,17 +61,30 @@
 		font-size:				.8em;
 	}
 
+	// END INDEX PAGE //
+
+	// START SINGLE PAGE //
+
+	#post_atf h1 {
+		font-size:				3.3em;
+		width:					70%;
+	}
+
+	#post_atf p {
+		width:					60%;
+	}
+
+	// END SINGLE PAGE //
+
 }
 
 @media screen and (min-width:800px) {
 
-	#content {
-		padding-top:			20px;
-	}
+	// START INDEX PAGE //
 
 	.post_box {
 		width:					80%;
-		margin:					auto;		
+		margin:					20px auto auto auto;		
 	}
 
 	.post_content {
@@ -77,4 +111,19 @@
 	.post_content p:last-child {
 		padding-top:			20px;
 	}
+
+	// END INDEX PAGE //
+
+	// START SINGLE PAGE //
+
+	#post_atf h1 {
+		font-size:				3.3em;
+		width:					70%;
+	}
+
+	#post_atf p {
+		width:					40%;
+	}
+	// END SINGLE PAGE //
+
 }
