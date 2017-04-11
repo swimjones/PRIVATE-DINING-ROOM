@@ -11,7 +11,7 @@
 				<br><br>
 				<?php echo the_excerpt();?>
 				<br><br>
-				<p><a id=readmore href="#single_article">See full story</a></p>
+				<p><a id=readmore href="#single_article">&#8659;</a></p>
 				<br><br>
 				<p><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a></p>
 				<br><br>

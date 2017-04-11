@@ -157,7 +157,7 @@ a {
 
 #atf_content {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%; }
@@ -184,20 +184,19 @@ a {
 #readmore {
   padding-top: 40px;
   font-family: "Helvetica", sans-serif;
-  color: #4951FF;
+  color: white;
   font-weight: 700;
-  font-size: 1.8em;
-  text-decoration: underline; }
-
-#readmore:hover {
-  text-decoration: line-through; }
+  font-size: 3em;
+  animation: bounce .25s infinite;
+  animation-direction: alternate-reverse; }
 
 #single_article img {
   width: 100% !important;
   height: auto !important; }
 
-#single_article p {
-  width: 93%;
+#single_article > p {
+  width: 90%;
+  font-size: 1.13em;
   font-family: "Frank Ruhl Libre", serif;
   margin: auto;
   padding: 1% 0px 1% 0px; }
@@ -205,7 +204,7 @@ a {
 #single_article .p3 {
   font-family: "Arial", sans-serif;
   font-size: 1.4em;
-  font-weight: 700;
+  font-weight: 600;
   padding: 20px 0px 10px 0px; }
 
 blockquote {
@@ -228,6 +227,13 @@ blockquote .p1 {
   color: white;
   padding: 5px 0px 5px 0px; }
 
+@keyframes bounce {
+  0% {
+    position: relative;
+    top: 10px; }
+  100% {
+    position: relative;
+    top: -10px; } }
 @media screen and (min-width: 500px) and (max-width: 670px) {
   .post_box {
     width: 90%;
@@ -241,6 +247,9 @@ blockquote .p1 {
 
   #post_atf h1 {
     font-size: 3.2em; }
+
+  #post_atf p {
+    font-size: .8em; }
 
   blockquote {
     width: 85%;
@@ -280,7 +289,8 @@ blockquote .p1 {
     width: 70%; }
 
   #post_atf p {
-    width: 60%; }
+    width: 60%;
+    font-size: .9em; }
 
   blockquote {
     width: 80%;
@@ -329,7 +339,8 @@ blockquote .p1 {
     width: 70%; }
 
   #post_atf p {
-    width: 40%; }
+    width: 60%;
+    font-size: 1em; }
 
   blockquote {
     left: 2%;
@@ -346,7 +357,7 @@ blockquote .p1 {
     font-size: 1.2em; } }
 @media screen and (min-width: 1000px) {
   #single_article {
-    width: 57%;
+    width: 70%;
     margin: auto; } }
 
 /*# sourceMappingURL=style.css.map */

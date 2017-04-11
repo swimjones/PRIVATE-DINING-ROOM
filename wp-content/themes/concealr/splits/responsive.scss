@@ -24,6 +24,10 @@
 		font-size:				3.2em;
 	}
 
+	#post_atf p {
+		font-size:				.8em;
+	}
+
 	blockquote {
 		width:					85%;
 		left:					.1%;
@@ -84,6 +88,7 @@
 
 	#post_atf p {
 		width:					60%;
+		font-size:				.9em;
 	}
 
 	blockquote {
@@ -156,7 +161,8 @@
 	}
 
 	#post_atf p {
-		width:					40%;
+		width:					60%;
+		font-size:				1em;
 	}
 
 	blockquote {
@@ -176,12 +182,13 @@
 	#single_article > .p1 {
 		font-size:				1.2em;
 	}
+
 	// END SINGLE PAGE //
 }
 
 @media screen and (min-width:1000px) {
 	#single_article { 
-		width:					57%;
+		width:					70%;
 		margin:					auto;
 	}
 }

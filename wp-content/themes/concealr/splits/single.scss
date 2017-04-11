@@ -6,7 +6,7 @@
 
 #atf_content {
 	position:				absolute;
-	top:					45%;
+	top:					50%;
 	left:					50%;
 	transform:				translate(-50%,-50%);
 	width:					90%;
@@ -36,14 +36,11 @@
 #readmore {
 	padding-top:			40px;
 	font-family:			$header_title_FS;
-	color:					$new_blue;
+	color:					white;
 	font-weight:			700;
-	font-size:				1.8em;
-	text-decoration:		underline;
-}
-
-#readmore:hover {
-	text-decoration:		line-through;
+	font-size:				3em;
+	animation:				bounce .25s infinite;
+	animation-direction:	alternate-reverse;
 }
 
 #single_article img {
@@ -51,8 +48,9 @@
 	height:					auto !important;
 }
 
-#single_article p {
-	width:					93%;
+#single_article > p {
+	width:					90%;
+	font-size:				1.13em;
 	font-family:			$reader_FS;
 	margin:					auto;
 	padding:				1% 0px 1% 0px;
@@ -61,7 +59,7 @@
 #single_article .p3 {
 	font-family:			$menu_FS;
 	font-size:				1.4em;
-	font-weight:			700;
+	font-weight:			600;
 	padding:				20px 0px 10px 0px;
 }
 
