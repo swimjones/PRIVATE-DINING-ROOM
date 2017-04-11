@@ -21,7 +21,7 @@
 			<?php the_content(); ?>
 		</div>
 	<?php endwhile; else: ?>
-<p><?php _e('Sorry! We can\'t find that post :-(.');?></p><?php endif; ?>
+<p><?php _e('POST NOT FOUND');?></p><?php endif; ?>
 </div> <!-- #content end -->
 </div> <!-- #main end -->
 <?php get_footer();?>

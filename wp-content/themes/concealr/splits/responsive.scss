@@ -1,9 +1,3 @@
-@media screen and (max-width:500px) {
-	blockquote {
-		position:				relative;
-		left:					-5%;
-	}
-}
 
 @media screen and (min-width:500px) and (max-width:670px) {
 
@@ -28,6 +22,15 @@
 
 	#post_atf h1 {
 		font-size:				3.2em;
+	}
+
+	blockquote {
+		width:					80%;
+		left:					1%;
+	}
+
+	blockquote .p1 {
+		font-size:				1.7em;
 	}
 
 	// END SINGLE PAGE //
@@ -72,6 +75,15 @@
 
 	#post_atf p {
 		width:					60%;
+	}
+
+	blockquote {
+		width:					80%;
+		left:					1%;
+	}
+
+	blockquote .p1 {
+		font-size:				1.8em;
 	}
 
 	// END SINGLE PAGE //
@@ -123,6 +135,15 @@
 
 	#post_atf p {
 		width:					40%;
+	}
+
+	blockquote {
+		left:					2%;
+		width:					60%;
+	}
+
+	blockquote .p1 {
+		font-size:				2em;
 	}
 	// END SINGLE PAGE //
 

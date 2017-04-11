@@ -49,7 +49,7 @@
 }
 
 #single_article p {
-	width:					95%;
+	width:					93%;
 	font-family:			$reader_FS;
 	margin:					auto;
 	padding:				10px 0px 10px 0px;
@@ -65,6 +65,8 @@
 blockquote {
 	border-left:			10px solid $new_tan;
 	padding:				15px;
+	position:				relative;
+	left:					-4%;
 }
 blockquote .p1 {
 	font-family:			$reader_FS;
