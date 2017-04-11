@@ -58,6 +58,15 @@
 
 	// END SINGLE PAGE //
 
+	// START FOOTER PAGE //
+
+	#footer p {
+		width:					70%;
+
+	}
+
+	// END FOOTER PAGE //
+
 }
 
 @media screen and (min-width:670px) and (max-width:800px) {
@@ -144,6 +153,15 @@
 	}
 
 	// END SINGLE PAGE //
+
+
+	// START FOOTER PAGE //
+
+	#footer p {
+		width:					60%;
+	}
+
+	// END FOOTER PAGE //
 
 }
 
@@ -234,11 +252,19 @@
 	}
 
 	// END SINGLE PAGE //
+
+	// START FOOTER PAGE //
+
+	#footer p {
+		width:					40%;
+	}
+
+	// END FOOTER PAGE //
 }
 
 @media screen and (min-width:1000px) {
 	#single_article { 
-		width:					70%;
+		width:					60%;
 		margin:					auto;
 	}
 }
