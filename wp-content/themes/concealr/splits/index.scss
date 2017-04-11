@@ -23,14 +23,15 @@
 
 .title_link:link {
 	color:					$new_red;
+	opacity:				.82;
 }
 
 .title_link:visited {
-	color:					$new_tan;
+	color:					$new_red;
 }
 
 .title_link:hover {
-	color:					$new_purple;
+	color:					$new_tan;
 }
 
 .title_link:active {

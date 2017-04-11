@@ -125,13 +125,14 @@ a {
   font-size: .85em; }
 
 .title_link:link {
-  color: #E9707F; }
+  color: #E9707F;
+  opacity: .82; }
 
 .title_link:visited {
-  color: #FFB56A; }
+  color: #E9707F; }
 
 .title_link:hover {
-  color: #4B4083; }
+  color: #FFB56A; }
 
 .title_link:active {
   color: #FFB56A; }
