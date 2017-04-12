@@ -18,8 +18,8 @@
 	</div>
 	<ul class=no_menu>
 		<li><a id=mag href="http://privatediningroom.io/">our ideas/<span class=menu_desc>what we think</span></a></li>
-		<li><a id=extras href="?pageid=13">our products/<span class=menu_desc>what we do</span></a></li>
-		<li><a id=info href="?pageid=11">our philosophy/<span class=menu_desc>who we are</span></a></li>
+		<li><a id=extras href="?page_id=13">our products/<span class=menu_desc>what we do</span></a></li>
+		<li><a id=info href="?page_id=11">our philosophy/<span class=menu_desc>who we are</span></a></li>
 	</ul>
 </div>
 
