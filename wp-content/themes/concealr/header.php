@@ -13,13 +13,13 @@
 <div id=wrapper>
 <div id=header class=default>
 	<div id=header_nav>
-		<h1><a href="http://privatediningroom/">PRIVATE DINING ROOM</a></h1>
+		<h1><a href="http://privatediningroom.io/">PRIVATE DINING ROOM</a></h1>
 		<a id=pipes_button href="javascript:void(0)" onclick="bye_menu();">&#9776;</a>
 	</div>
 	<ul class=no_menu>
-		<li><a id=mag href="#">our ideas/<span class=menu_desc>what we think</span></a></li>
-		<li><a id=extras href="products">our products/<span class=menu_desc>what we do</span></a></li>
-		<li><a id=info href="philosophy">our philosophy/<span class=menu_desc>who we are</span></a></li>
+		<li><a id=mag href="http://privatediningroom.io/">our ideas/<span class=menu_desc>what we think</span></a></li>
+		<li><a id=extras href="?pageid=13">our products/<span class=menu_desc>what we do</span></a></li>
+		<li><a id=info href="?pageid=11">our philosophy/<span class=menu_desc>who we are</span></a></li>
 	</ul>
 </div>
 
