@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 <div id=main>
 <div id=content>
+	<div style="width:50%;margin:auto;background-color:#4951FF">
+		<p>NEW LIVE CHANGES...</p>
+	</div>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div class=post_box>
 			<a href="<?php echo get_post_permalink();?>"><?php echo get_the_post_thumbnail(); ?></a>
