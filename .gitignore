@@ -1,3 +1,4 @@
 wp-content/uploads/
+# These values maintain configuration across environments
 .htaccess
 wp-config.php
