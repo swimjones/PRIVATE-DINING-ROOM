@@ -6,7 +6,7 @@
  * installation. You don't have to use the web site, you can
  * copy this file to "wp-config.php" and fill in the values.
  *
- * This file contains the following configurations:
+ * This file contains the (test comment) following configurations:
  *
  * * MySQL settings
  * * Secret keys
@@ -17,24 +17,27 @@
  *
  * @package WordPress
  */
-$db_hostname = getenv('DATABASE_NAME');
-$sr_hostname = getenv('DOMAIN_NAME');
-define('WP_HOME', 'http://'.$sr_hostname);
-define('WP_SITEURL', 'http://'.$sr_hostname);
+
+$hostname = getenv('DOMAIN_NAME');
+$database = getenv('DATABASE_NAME');
+$password = getenv('DB_PASSWORD');
+
+define('WP_HOME', 'http://'.$hostname.'/');
+define('WP_SITEURL', 'http://'.$hostname.'/');
 
 
 // ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+/** The naoriginalme of the database for WordPress */
 define('DB_NAME', 'pdr');
 
 /** MySQL database username */
 define('DB_USER', 'swimjones');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'magnum1998');
+define('DB_PASSWORD', $password);
 
 /** MySQL hostname */
-define('DB_HOST', $db_hostname);
+define('DB_HOST', $database);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
