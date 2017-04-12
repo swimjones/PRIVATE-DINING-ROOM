@@ -9,28 +9,28 @@
 	top:					50%;
 	left:					50%;
 	transform:				translate(-50%,-50%);
-	width:					90%;
+	width:					100%
 }
 
 #post_atf h1 {
-	width:					85%;
+	width:					87%;
 	margin:					auto;
 	font-family:			$post_title_FS;
 	text-align:				center;
 	color:					white;
 	padding-top:			40px;
-	font-size:				2.2em;
+	font-size:				2.4em;
 	margin-bottom:			10px;
 }
 
 #post_atf p{
-	width:					75%;
+	width:					80%;
 	margin:					auto;
 	text-align:				center;
 	color:					white;
 	font-family:			$header_title_FS;
 	font-weight:			100;
-	font-size:				.7em;
+	font-size:				1em;
 }
 
 #readmore {
@@ -47,13 +47,18 @@
 	color:					$new_red;
 }
 
+#single_article {
+	margin-bottom:			20%;
+}
+
 #single_article img {
 	width:					100%;
 	height:					auto;
+	padding:				5% 0 5% 0;
 }
 
 #single_article > p {
-	width:					90%;
+	width:					93%;
 	font-size:				1.13em;
 	font-family:			$reader_FS;
 	margin:					auto;
@@ -62,7 +67,7 @@
 
 #single_article .p3 {
 	font-family:			$menu_FS;
-	font-size:				1.4em;
+	font-size:				1.5em;
 	font-weight:			600;
 	padding:				20px 0px 10px 0px;
 }
