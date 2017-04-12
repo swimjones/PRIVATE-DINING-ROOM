@@ -18,7 +18,7 @@
 	</div>
 	<ul class=no_menu>
 		<li><a id=mag href="#">our ideas/<span class=menu_desc>what we think</span></a></li>
-		<li><a id=extras href="#">our products/<span class=menu_desc>what we do</span></a></li>
+		<li><a id=extras href="products">our products/<span class=menu_desc>what we do</span></a></li>
 		<li><a id=info href="philosophy">our philosophy/<span class=menu_desc>who we are</span></a></li>
 	</ul>
 </div>
