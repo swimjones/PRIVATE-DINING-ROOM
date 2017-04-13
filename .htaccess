@@ -1,6 +1,6 @@
 SetEnv DOMAIN_NAME privatediningroom.io
 SetEnv DATABASE_NAME localhost:80
-SetEnv DB_PASSWORD ?mFiSdBiLt”1271
+SetEnv DB_PASSWORD ?mFiSdBiLt"1271
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
@@ -12,4 +12,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 # END WordPress
-#test
