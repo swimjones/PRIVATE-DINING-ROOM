@@ -1,5 +1,5 @@
 SetEnv DOMAIN_NAME privatediningroom.io
-SetEnv DATABASE_NAME localhost
+SetEnv DATABASE_NAME localhost:80
 SetEnv DB_PASSWORD ?mFiSdBiLt”1271
 
 # BEGIN WordPress
