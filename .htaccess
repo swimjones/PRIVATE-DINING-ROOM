@@ -1,6 +1,6 @@
-SetEnv DOMAIN_NAME privatediningroom
-SetEnv DATABASE_NAME localhost:3306
-SetEnv DB_PASSWORD magnum1998
+SetEnv DOMAIN_NAME privatediningroom.io
+SetEnv DATABASE_NAME localhost
+SetEnv DB_PASSWORD ?mFiSdBiLt”1271
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
