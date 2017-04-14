@@ -22,5 +22,3 @@
 		<li><a id=info href="philosophy">our philosophy/<span class=menu_desc>who we are</span></a></li>
 	</ul>
 </div>
-
-
