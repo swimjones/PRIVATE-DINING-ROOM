@@ -1,4 +1,4 @@
-@keyframes fade {
-	0%{opacity:.2}
-	100%{opacity:1}
+@keyframes bounce {
+	0%{position:relative;top:-10px}
+	100%{position:relative;top:10px}
 }

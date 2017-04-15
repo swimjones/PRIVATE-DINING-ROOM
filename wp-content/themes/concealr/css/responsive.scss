@@ -26,10 +26,6 @@
 		font-size:				.9em;
 	}
 
-	#readmore {
-		width:					70%;
-	}
-
 	// END SINGLE PAGE //
 }
 
@@ -67,12 +63,8 @@
 	}
 
 	#post_atf p {
-		font-size:				.8em;
-	}
-
-	blockquote {
-		width:					85%;
-		left:					.1%;
+		font-size:				.85em;
+		width:					400px;
 	}
 
 	blockquote p {
@@ -124,10 +116,9 @@
 		top:					-25px;
 	}
 
-	#header ul li,
-	#header ul li a {
+	#header ul a {
 		text-align:				center;
-		font-size:				1.6em;
+		font-size:				4em;
 	}
 
 	// END HEADER //
@@ -167,18 +158,13 @@
 	// START SINGLE PAGE //
 
 	#post_atf h1 {
-		font-size:				3.3em;
+		font-size:				4em;
 		width:					70%;
 	}
 
 	#post_atf p {
 		width:					60%;
 		font-size:				.9em;
-	}
-
-	blockquote {
-		width:					80%;
-		left:					1%;
 	}
 
 	blockquote p {
@@ -192,14 +178,6 @@
 
 	#single_article > p {
 		font-size:				1em;
-	}
-
-	#single_article .p3 {
-		font-size:				1.6em;
-	}
-
-	#readmore {
-		width:					30%;
 	}
 
 	// END SINGLE PAGE //
@@ -238,10 +216,9 @@
 		top:					-25px;
 	}
 
-	#header ul li,
-	#header ul li a {
+	#header ul a {
 		text-align:				center;
-		font-size:				1.5em;
+		font-size:				5em;
 	}
 
 	// END HEADER //
@@ -283,17 +260,18 @@
 	// START SINGLE PAGE //
 
 	#post_atf h1 {
-		font-size:				3.3em;
-		width:					70%;
+		font-size:				5.5em;
+		width:					80%;
+		line-height: 			1em;
 	}
 
 	#post_atf p {
-		width:					60%;
-		font-size:				1em;
+		width:					70%;
+		font-size:				2em;
 	}
 
 	blockquote {
-		left:					2%;
+		left:					-2%;
 		width:					85%;
 	}
 
@@ -302,16 +280,12 @@
 	}
 
 	#single_article {
-		width:					60%;
+		width:					600px;
 		margin:					auto;
 	}
 
 	#single_article > p {
 		font-size:				1em;
-	}
-
-	#readmore {
-		width:					30%;
 	}
 
 	// END SINGLE PAGE //
@@ -334,19 +308,6 @@
 	// END PHILO //
 }
 
-@media screen and (min-width:1000px) {
-	#single_article { 
-		width:					64%;
-		margin:					auto;
-	}
-}
-
-@media screen and (min-width:1200px) {
-	#single_article {
-		width:					50%;
-		margin:					auto;
-	}
-}
 
 
 

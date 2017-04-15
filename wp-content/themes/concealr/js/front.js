@@ -43,15 +43,12 @@ function hasScrolled() {
         // scroll Down
         $("#header").removeClass('default').addClass('slide_up');
 
-        // used to keep svg from floating onscreen
-        $("#header img").css("display","none"); 
         $("#header ul").removeClass("show_menu").addClass("no_menu");
     } else {
             if(st + $(window).height() < $(document).height()) {
 
                 // scroll up
                 $("#header").removeClass('slide_up').addClass('default');
-                $("#header img").css("display","block");
 
                 // changes menu svg back to normal if menu open while scroll up
                 if(($("#header ul").hasClass("no_menu")) && ($("#header").hasClass("default"))){

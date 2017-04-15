@@ -18,8 +18,6 @@
 	top:					0;
 }
 
-/// CURRENT ===== FIX THE POSITION OF THE MOBILE MENU ICON ///
-
 .slide_up {
 	transition:				top .2s ease-in-out;
 	position:				absolute;
@@ -74,7 +72,7 @@
 
 .no_menu {
 	position:				relative;
-	left:					-800px;
+	left:					-1200px;
 	transition-duration:	.6s;
 }
 

@@ -1,14 +1,6 @@
 #post_atf {
-	position:				relative;
-	height:					100vh;
-}
-
-#atf_content {
-	position:				absolute;
-	top:					40%;
-	left:					50%;
-	transform:				translate(-50%,-50%);
-	width:					100%
+	position:				static;
+	padding:				50px 0 0 0;
 }
 
 #post_atf h1 {
@@ -47,9 +39,7 @@
 	padding:				10px;
 	color:					$red;
 	font-family:			$FSB;
-	border:					1px solid $red;
-	border-radius: 			5px;
-	animation:				fade .5s infinite;
+	animation:				bounce .5s infinite;
 	animation-direction:	alternate-reverse;
 }
 
@@ -63,22 +53,24 @@
 }
 
 #single_article .p3 {
-	font-family:			$FRL;
-	font-size:				1.5em;
-	font-weight:			700;
+	font-family:			$SSP;
+	font-size:				1.4em;
+	font-weight:			100;
 	padding:				20px 0px 10px 0px;
 }
 
 blockquote {
-	border-left:			10px solid $gold;
+	border-left:			12px solid $gold;
 	padding:				15px;
 	position:				relative;
-	left:					-4%;
+	left:					5%;
+	margin:					20px auto 20px auto;
 }
+
 blockquote p {
-	font-family:			$SSP;
+	font-family:			$FSB;
 	color:					$gold;
-	font-weight:			600;
-	font-size:				1.6em;
+	font-size:				1.5em;
 	line-height:			1em;
+	width:					90%;
 }

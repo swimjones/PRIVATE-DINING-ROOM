@@ -1,13 +1,13 @@
 #philo_atf {
-	background:				linear-gradient($blue, white);
 	height:					100vh;
 }
 
 #philo_atf p {
-	font-family: 			$FRL;
-	font-size:				1.2em;
-	color:					white;
+	font-family: 			$FSB;
+	font-size:				1em;
+	color:					$red;
 	width:					80%;
+	text-align:				left;
 	margin:					auto;
 	position:				absolute;
 	top:					50%;
