@@ -86,7 +86,7 @@
 		margin:					auto;
 	}
 
-	#single_article > .p1 {
+	#single_article > p {
 		font-size:				1.15em;
 	}
 
@@ -183,11 +183,11 @@
 	}
 
 	#single_article {
-		width:					85%;
+		width:					70%;
 		margin:					auto;
 	}
 
-	#single_article > .p1 {
+	#single_article > p {
 		font-size:				1.2em;
 	}
 
@@ -299,11 +299,11 @@
 	}
 
 	#single_article {
-		width:					77%;
+		width:					60%;
 		margin:					auto;
 	}
 
-	#single_article > .p1 {
+	#single_article > p {
 		font-size:				1.2em;
 	}
 
@@ -333,7 +333,14 @@
 
 @media screen and (min-width:1000px) {
 	#single_article { 
-		width:					70%;
+		width:					64%;
+		margin:					auto;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	#single_article {
+		width:					50%;
 		margin:					auto;
 	}
 }
