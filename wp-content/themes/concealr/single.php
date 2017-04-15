@@ -8,7 +8,7 @@
 				<br><br>
 				<p id=excpt><?php echo the_excerpt();?></p>
 				<br><br>
-				<p style="font-weight:600">Story by <?php the_author();?><br><?php the_date();?></p>
+				<p style="font-size:.80em">Story by <?php the_author();?><br><?php the_date();?></p>
 				<br><br>
 				<p><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a></p>
 			</div>
