@@ -1015,7 +1015,7 @@ function post_custom( $key = '' ) {
  */
 function the_meta() {
 	if ( $keys = get_post_custom_keys() ) {
-		echo "<ul class='post-meta'>\n";
+		echo "";
 		foreach ( (array) $keys as $key ) {
 			$keyt = trim($key);
 			if ( is_protected_meta( $keyt, 'post' ) )
@@ -1032,9 +1032,9 @@ function the_meta() {
 			 * @param string $key   Meta key.
 			 * @param string $value Meta value.
 			 */
-			echo apply_filters( 'the_meta_key', "<li><span class='post-meta-key'>$key:</span> $value</li>\n", $key, $value );
+			echo apply_filters("$value", $value );
 		}
-		echo "</ul>\n";
+		echo "";
 	}
 }
 

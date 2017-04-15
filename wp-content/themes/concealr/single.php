@@ -8,7 +8,7 @@
 				<br><br>
 				<p id=excpt><?php echo the_excerpt();?></p>
 				<br><br>
-				<p style="font-size:.80em">Story by <?php the_author();?><br><?php the_date();?><br> Photography by<?php the_meta(); ?></p>
+				<p style="font-size:.80em">Story by <?php the_author();?><br>Photography by <?php the_meta(); ?><br><br><?php the_date();?></p>
 				<br><br>
 				<a href="#single_article"><h2 id=readmore>See full story</h2></a>
 				<br><br>
