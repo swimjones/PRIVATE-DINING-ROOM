@@ -6,7 +6,7 @@
 			<a href="<?php echo get_post_permalink();?>"><?php echo get_the_post_thumbnail(); ?></a>
 				<div class=post_content>
 					<h2><a class=title_link href="<?php echo get_post_permalink();?>"><?php echo the_title(); ?></a></h2>
-					<p><em><?php echo the_date(); ?> — <?php echo the_time(); ?></em></p>
+					<p style="font-size:.75em"><em><?php echo the_date(); ?> — <?php echo the_time(); ?></em></p>
 					<p><?php echo the_excerpt();?></p>
 					<a class="twitter-share-button"
 						  href="https://twitter.com/share"

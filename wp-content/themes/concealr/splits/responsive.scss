@@ -1,4 +1,38 @@
 
+@media screen and (max-width:325px) {
+	// START INDEX PAGE //
+
+	.post_content p {
+		font-size:				.8em;
+	}
+
+	.title_link {
+		font-size:				1em;
+	}
+
+	// END INDEX PAGE //
+
+	// START SINGLE PAGE //
+
+	#atf_content {
+		top:					50%;
+	}
+
+	#post_atf h1 {
+		font-size:				2.3em;
+	}
+
+	#post_atf p {
+		font-size:				.9em;
+	}
+
+	#readmore {
+		width:					70%;
+	}
+
+	// END SINGLE PAGE //
+}
+
 @media screen and (min-width:500px) and (max-width:670px) {
 
 	// START HEADER //
@@ -161,6 +195,10 @@
 		font-size:				1.6em;
 	}
 
+	#readmore {
+		width:					30%;
+	}
+
 	// END SINGLE PAGE //
 
 
@@ -267,6 +305,10 @@
 
 	#single_article > .p1 {
 		font-size:				1.2em;
+	}
+
+	#readmore {
+		width:					30%;
 	}
 
 	// END SINGLE PAGE //

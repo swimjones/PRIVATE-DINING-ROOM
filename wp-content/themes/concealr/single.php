@@ -10,6 +10,8 @@
 				<br><br>
 				<p style="font-size:.80em">Story by <?php the_author();?><br><?php the_date();?></p>
 				<br><br>
+				<h2 id=readmore><a href="#single_article">See full story</a></h2>
+				<br><br>
 				<p><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a></p>
 			</div>
 		</div>
