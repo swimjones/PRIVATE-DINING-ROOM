@@ -1,0 +1,6 @@
+#!/bin/sh
+cl_startmamp
+echo "starting local development server..."
+sass --watch splits/style.scss:../style.css -t compressed
+echo "starting sass compression..."
+echo "process completed"
