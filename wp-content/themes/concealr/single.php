@@ -16,7 +16,7 @@
 			<?php the_content(); ?>
 			<div id=socialbuttons>
 				<p>
-					<a href="https://twitter.com/share" class="twitter-share-button" data-size="small" data-show-count="true">Tweet</a>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="true">Tweet</a>
 				</p>
 			</div>
 		</div>
