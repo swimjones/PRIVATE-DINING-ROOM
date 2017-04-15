@@ -5,8 +5,11 @@
 		<div id=post_atf>
 			<div id=atf_content>
 				<h1><?php the_title(); ?></h1>
-				<p><?php echo the_excerpt();?></p>
-				<p>Story by <?php the_author();?><br><?php the_date();?></p>
+				<br><br>
+				<p id=excpt><?php echo the_excerpt();?></p>
+				<br><br>
+				<p style="font-weight:600">Story by <?php the_author();?><br><?php the_date();?></p>
+				<br><br>
 				<p><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a></p>
 			</div>
 		</div>
