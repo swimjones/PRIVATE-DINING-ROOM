@@ -9,12 +9,16 @@
 			<br><br>
 			<p style="font-size:.80em">Story by <?php the_author();?><br>Photography by <?php the_meta(); ?></p>
 			<br><br>
-			<a href="#single_article"><h2 id=readmore>&#8595;</h2></a>
+			<h2 id=readmore>&#8595;</h2>
 			<br><br>
 		</div>
 		<div id=single_article>
 			<?php the_content(); ?>
-			<p style="margin-top:20px;"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a></p>
+			<div id=socialbuttons>
+				<p>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-size="small" data-show-count="true">Tweet</a>
+				</p>
+			</div>
 		</div>
 	<?php endwhile; else: ?>
 <p><?php _e('POST NOT FOUND');?></p><?php endif; ?>
