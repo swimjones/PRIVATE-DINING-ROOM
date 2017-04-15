@@ -1,5 +1,4 @@
 wp-config.php
 .htaccess
 wp-content/uploads
-*/.DS_Store
-wp-content/themes/.DS_Store
+.DS_Store
