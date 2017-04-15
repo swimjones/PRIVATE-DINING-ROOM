@@ -10,7 +10,7 @@
 					<p><?php echo the_excerpt();?></p>
 					<a class="twitter-share-button"
 						  href="https://twitter.com/share"
-						  data-size="medium"
+						  data-size="large"
 						  data-text=""
 						  data-url="<?php echo get_permalink(); ?>">share
 				 	</a>
