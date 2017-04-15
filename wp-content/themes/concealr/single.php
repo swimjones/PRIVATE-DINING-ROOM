@@ -8,9 +8,9 @@
 				<br><br>
 				<p id=excpt><?php echo the_excerpt();?></p>
 				<br><br>
-				<p style="font-size:.80em">Story by <?php the_author();?><br><?php the_date();?></p>
+				<p style="font-size:.80em">Story by <?php the_author();?><br><?php the_date();?><br> Photography by<?php the_meta(); ?></p>
 				<br><br>
-				<h2 id=readmore><a href="#single_article">See full story</a></h2>
+				<a href="#single_article"><h2 id=readmore>See full story</h2></a>
 				<br><br>
 				<p><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a></p>
 			</div>
