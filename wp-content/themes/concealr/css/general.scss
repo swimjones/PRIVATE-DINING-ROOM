@@ -1,0 +1,56 @@
+	$HELV: 					"Helvetica", sans-serif;
+	$FRL: 					"Frank Ruhl Libre", serif;
+	$SSP:					"Source Serif Pro", serif;
+	$FB:					"Faldore-Bold", sans-serif;
+	$FL:					"Faldore-Light", sans-serif;
+	$FSB:					"Faldore-SemiBold", sans-serif;
+
+	$blue:					#4951FF;
+	$gold:					#FFB56A;
+	$red:					#E9707F;
+
+@font-face {
+	font-family: 			"Faldore-Bold";
+	src:					url('fonts/bold.ttf');
+	src:					url('fonts/bold.woff');
+}
+
+@font-face {
+	font-family:			"Faldore-Light";
+	src:					url('fonts/light.ttf');
+	src:					url('fonts/light.woff');
+}
+
+@font-face {
+	font-family: 			"Faldore-SemiBold";
+	src:					url('fonts/semibold.ttf');
+	src:					url('fonts/semibold.ttf');
+}
+
+* {
+	box-sizing:				border-box;
+}
+
+body {
+	margin:					0;
+	padding-top:			60px; // used to hide header
+	box-sizing: 			border-box;
+}
+
+h1, h2, h3, p {
+	margin:					0;
+	line-height:			1em;
+}
+
+a {
+	text-decoration:		none;
+	color:					inherit;
+}
+
+#content {
+	display:				block;
+}
+
+#footer {
+	padding:				20px 0 20px 0;
+}

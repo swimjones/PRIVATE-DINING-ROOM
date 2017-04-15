@@ -1,0 +1,52 @@
+.post_box {
+	position:				relative;
+}
+
+.post_box img {
+	width:					100%;
+	height:					auto;
+}
+
+.post_content h2 {
+	padding:				5% 0 2% 5%;				
+}
+
+.post_content {
+	width:					90%;
+	border-left:			15px solid $blue;
+	margin:					-4% 0 4% 0;
+	padding:				3%;
+}
+
+.title_link {
+	font-family:			$FSB;
+	font-size:				1.3em;
+	line-height:			1em;
+}
+
+.title_link:link {
+	color:					$blue;
+	opacity:				.85;
+}
+
+.title_link:visited {
+	color:					$red;
+}
+
+.title_link:hover,
+.title_link:active {
+	color:					$gold;
+	text-decoration: 		line-through;
+}
+
+.post_content p {
+	padding:				0 0 0 5%;
+	font-family:			$HELV;
+	width:					90%;
+	font-weight:			100;
+	font-size:				.95em;
+	color:					$blue;
+}
+
+
+

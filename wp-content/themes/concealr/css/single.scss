@@ -14,9 +14,9 @@
 #post_atf h1 {
 	width:					87%;
 	margin:					auto;
-	font-family:			$post_title_FS;
+	font-family:			$FSB;
 	text-align:				center;
-	color:					$new_blue;
+	color:					$red;
 	font-size:				2.7em;
 	line-height: 			1em;
 }
@@ -25,8 +25,7 @@
 	width:					80%;
 	margin:					auto;
 	text-align:				center;
-	color:					black;
-	font-family:			$header_title_FS;
+	font-family:			$HELV;
 	font-weight:			100;
 	font-size:				.93em;
 }
@@ -46,37 +45,39 @@
 	margin:					auto;
 	text-align:				center;
 	padding:				10px;
-	color:					$new_red;
-	font-family:			$menu_FS;
-	border:					1px solid $new_red;
-	border-radius: 			10px;
+	color:					$red;
+	font-family:			$FSB;
+	border:					1px solid $red;
+	border-radius: 			5px;
+	animation:				fade .5s infinite;
+	animation-direction:	alternate-reverse;
 }
 
 #single_article > p {
 	width:					93%;
 	font-size:				1em;
 	line-height:			1.2em;
-	font-family:			$reader_FS;
+	font-family:			$FRL;
 	margin:					auto;
 	padding:				1% 0px 1% 0px;
 }
 
 #single_article .p3 {
-	font-family:			$reader_FS;
+	font-family:			$FRL;
 	font-size:				1.5em;
 	font-weight:			700;
 	padding:				20px 0px 10px 0px;
 }
 
 blockquote {
-	border-left:			10px solid $new_tan;
+	border-left:			10px solid $gold;
 	padding:				15px;
 	position:				relative;
 	left:					-4%;
 }
 blockquote p {
-	font-family:			$post_title_FS;
-	color:					$new_tan;
+	font-family:			$SSP;
+	color:					$gold;
 	font-weight:			600;
 	font-size:				1.6em;
 	line-height:			1em;

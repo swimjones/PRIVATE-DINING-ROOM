@@ -17,8 +17,10 @@
 		<a id=pipes_button href="javascript:void(0)" onclick="bye_menu();">&#9776;</a>
 	</div>
 	<ul class=no_menu>
-		<li><a id=mag href="http://<?php echo getenv('DOMAIN_NAME')?>">our ideas/<span class=menu_desc>what we think</span></a></li>
-		<li><a id=extras href="products">our products/<span class=menu_desc>what we do</span></a></li>
-		<li><a id=info href="philosophy">our philosophy/<span class=menu_desc>who we are</span></a></li>
+		<div id=menuitems>
+			<a id=mag href="http://<?php echo getenv('DOMAIN_NAME')?>">ideas</a>
+			<a id=extras href="products">products</a>
+			<a id=info href="philosophy">philosophy</a>
+		</div>
 	</ul>
 </div>
