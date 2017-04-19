@@ -2,7 +2,6 @@
 	$FRL: 					"Frank Ruhl Libre", serif;
 	$SSP:					"Source Serif Pro", serif;
 	$FB:					"Faldore-Bold", sans-serif;
-	$FL:					"Faldore-Light", sans-serif;
 	$FSB:					"Faldore-SemiBold", sans-serif;
 
 	$blue:					#4951FF;
@@ -11,20 +10,14 @@
 
 @font-face {
 	font-family: 			"Faldore-Bold";
-	src:					url('fonts/bold.ttf');
-	src:					url('fonts/bold.woff');
-}
-
-@font-face {
-	font-family:			"Faldore-Light";
-	src:					url('fonts/light.ttf');
-	src:					url('fonts/light.woff');
+	src:					url('css/fonts/bold.ttf');
+	src:					url('css/fonts/bold.woff');
 }
 
 @font-face {
 	font-family: 			"Faldore-SemiBold";
-	src:					url('fonts/semibold.ttf');
-	src:					url('fonts/semibold.woff');
+	src:					url('css/fonts/semibold.ttf');
+	src:					url('css/fonts/semibold.woff');
 }
 
 * {
@@ -53,4 +46,5 @@ a {
 
 #footer {
 	padding:				20px 0 20px 0;
+	background-color:		$gold;
 }
