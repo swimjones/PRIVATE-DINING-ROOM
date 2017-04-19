@@ -1,5 +1,5 @@
 <div id=footer>
-<p>II CORINTHIANS 1:13</p>
+<p>p£r</p>
 </div> <!-- end of #footer --> 
 </div> <!-- end of #wrapper -->
 </body>
