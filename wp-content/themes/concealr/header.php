@@ -29,7 +29,6 @@
 		<div id=menuitems>
 			<a id=mag href="http://<?php echo getenv('DOMAIN_NAME')?>">ideas</a>
 			<a id=extras href="products">products</a>
-			<a id=info href="philosophy">philosophy</a>
 		</div>
 	</ul>
 </div>
