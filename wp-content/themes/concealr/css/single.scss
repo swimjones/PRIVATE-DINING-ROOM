@@ -53,11 +53,12 @@
 }
 
 #single_article h2 {
-	font-family:			$HELV;
+	font-family:			$FSB;
+	color:					$red;
 	font-size:				1.4em;
 	font-weight:			600;
-	width:				93%;
-	margin:				auto;
+	width:					93%;
+	margin:					auto;
 	padding:				20px 0px 10px 0px;
 }
 
@@ -76,7 +77,6 @@ blockquote p {
 	line-height:			1em;
 	width:					90%;
 }
-
 
 #socialbuttons p {
 	width:				60px;
