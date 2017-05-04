@@ -36,6 +36,10 @@
 	color:					white;
 }
 
+#header h1 a:active {
+	color:					$red;
+}
+
 #pipes_button { 
 	display:				inline-block;
 	float:					right;
