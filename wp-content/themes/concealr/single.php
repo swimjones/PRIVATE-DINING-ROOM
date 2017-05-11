@@ -11,6 +11,7 @@
 			<br><br>
 			<h2 id=readmore>&#8595;</h2>
 			<br><br>
+			<?php echo get_the_post_thumbnail(); ?>
 		</div>
 		<div id=single_article>
 			<?php the_content(); ?>
