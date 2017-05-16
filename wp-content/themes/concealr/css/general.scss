@@ -2,8 +2,10 @@
 	$FRL: 					"Frank Ruhl Libre", serif;
 	$FB:					"Faldore-Bold", sans-serif;
 	$FSB:					"Faldore-SemiBold", sans-serif;
+	$FR:					"Faldore-Regular", sans-serif;
+	$FL:					"Faldore-Light", sans-serif;
 
-	$blue:					#4951FF;
+	$blue:					#4990E2;
 	$gold:					#FFB56A;
 	$red:					#E9707F;
 
@@ -19,13 +21,25 @@
 	src:					url('css/fonts/semibold.woff');
 }
 
+@font-face {
+	font-family:			"Faldore-Regular";
+	src:					url('css/fonts/regular.ttf');
+	src:					url('css/fonts/regular.woff');
+}
+
+@font-face {
+	font-family:			"Faldore-Light";
+	src:					url('css/fonts/light.ttf');
+	src:					url('css/fonts/light.woff');
+}
+
 * {
 	box-sizing:				border-box;
 }
 
 body {
 	margin:					0;
-	//padding-top:			60px; // used to hide header
+	padding-top:			60px; // used to hide header
 	box-sizing: 			border-box;
 }
 

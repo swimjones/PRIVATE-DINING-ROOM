@@ -20,15 +20,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id=wrapper>
-<!--<div id=header class=default>
-	<div id=header_nav>
-		<h1><a href="http://<?php echo getenv('DOMAIN_NAME')?>">PRIVATE DINING ROOM</a></h1>
-		<a id=pipes_button href="javascript:void(0)" onclick="bye_menu();">&#9776;</a>
-	</div>
-	<ul class=no_menu>
-		<div id=menuitems>
-			<a id=mag href="http://<?php echo getenv('DOMAIN_NAME')?>">ideas</a>
-			<a id=extras href="products">products</a>
-		</div>
-	</ul>
-</div>-->
+<div id=header>
+	<a href=javascript:void(0);>navigation</a>
+</div>
