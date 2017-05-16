@@ -9,8 +9,6 @@
 			<br><br>
 			<p style="font-size:.80em">Story by <?php the_author();?><br><br>Photography by <?php the_meta(); ?></p>
 			<br><br>
-			<h2 id=readmore>&#8595;</h2>
-			<br><br>
 			<?php echo get_the_post_thumbnail(); ?>
 		</div>
 		<div id=single_article>
