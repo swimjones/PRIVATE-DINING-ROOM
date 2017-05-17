@@ -13,7 +13,7 @@
 <body>
 <div id=menu-pop-up class=menu-closed>
 	<div id=menu-contents>
-	<a class=menu-items>stories</a>
+	<a class=menu-items href="http://<?php echo getenv('DOMAIN_NAME')?>">stories</a>
 	<div class=divider></div>
 	<a class=menu-items>categories</a>
 	<div class=divider></div>
