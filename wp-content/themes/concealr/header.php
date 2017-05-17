@@ -12,12 +12,15 @@
 </head>
 <body>
 <div id=menu-pop-up class=menu-closed>
-	<a>stories</a>
+	<div id=menu-contents>
+	<a class=menu-items>stories</a>
 	<div class=divider></div>
-	<a>categories</a>
+	<a class=menu-items>categories</a>
 	<div class=divider></div>
-	<a>about us</a>
-	<button onclick="menuClose()"><a href="javascript:void(0);">close</a></button>
+	<a class=menu-items>about us</a>
+	<br><br><br>
+	<button onclick="menuClose()">close</button>
+	</div>
 </div>
 <div id=wrapper>
 <div id=header class=menu-closed class=nav-down>
