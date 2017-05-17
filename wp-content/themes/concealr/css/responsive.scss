@@ -1,0 +1,48 @@
+@media screen and (min-width:580px) {
+
+	#content {
+		padding-top:		20px;
+	}
+
+	.post-box {
+		width:				90%;
+		margin:				auto;
+	}
+
+	.post-content {
+		margin:				auto auto 20px auto;
+	}
+
+	.single-article p {
+		width:				80%;
+	}
+}
+
+@media screen and (min-width:749px){
+	.single-article p {
+		width:				670px;
+	}
+}
+
+@media screen and (min-width:800px){
+
+	#content {
+		padding-top:		40px;
+	}
+
+	.post-box {
+		display:			inline-block;
+		width:				45%;
+		float:				left;
+		margin:				auto 20px 50px 20px;
+	}
+
+	.post-content {
+		margin:				auto;
+	}
+
+	.single-article p {
+		font-size:			1.2em;
+	}
+
+}

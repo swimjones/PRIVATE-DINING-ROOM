@@ -1,45 +1,99 @@
 
 .post-atf {
-	margin: 40px auto auto auto;
+	margin: 			40px auto auto auto;
 }
-.post-atf img {
+
+img {
 	width:				100%;
 	height:				auto;
+	margin:				auto auto 20px auto;
 }
 
 .post-atf h1 {
+	width:				90%;
 	font-family:		$FSB;
 	color:				$red;
-	font-size:			1.5em;
-	margin:				auto auto 10px 20px;
+	font-size:			2em;
+	margin:				100px auto 25px auto;
 }
 
 .post-atf h2 {
-	width:				80%;
+	width:				90%;
 	font-family:		$FSB;
 	font-size:			1.1em;
 	color:				$red;
-	margin:				100px auto 20px 20px;
+	margin:				100px auto 100px auto;
 }
 
 .post-atf h3 {
+	width:				90%;
 	font-family:		$HELV;
 	font-weight:		100;
 	font-size:			.85em;
 	color:				$red;
-	margin:				auto auto 20px 20px;
+	margin:				auto auto 20px auto;
 
 }
 
 .post-atf h4 {
+	width:				90%;	
 	font-family:		$HELV;
 	color:				$red;
 	font-weight:		100;
 	font-size:			.75em;
-	margin:				auto auto auto 20px;
+	margin:				auto auto auto auto;
 } 
 
 .post-atf h4:last-child {
 	margin-bottom:		100px;
 }
+
+// END ATF
+
+.single-article p {
+	width:				95%;
+	margin:				10px auto 10px auto;
+	line-height:		1.1em;
+	font-family:		$FRL;
+	font-size:			1.1em;
+}
+
+.single-article img {
+	width:				100%;
+	height:				auto;
+	margin:				20px auto 20px auto;
+}
+
+.article-catch {
+	margin:				100px auto 80px auto; 
+}
+
+.article-catch h2 {
+	font-family:		$FSB;
+	color:				$red;
+	font-size:			1.8em;
+	width:				95%;
+	margin:				auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

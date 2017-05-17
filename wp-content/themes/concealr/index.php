@@ -13,4 +13,3 @@
 <p><?php _e('Sorry! We can\'t find that post :-(.');?></p><?php endif; ?>
 </div> <!-- #content end -->
 </div> <!-- #main end -->
-<?php get_footer();?>

@@ -8,12 +8,16 @@
 			<h4>Story by <?php the_author(); ?></h4>
 			<h4>Photography by <?php the_meta(); ?></h4>
 			<h2>Published <?php echo the_date(); ?></h2>
-			<?php echo get_the_post_thumbnail(); ?>
 		</div>
-		<div class=post-content>
+		<?php echo get_the_post_thumbnail(); ?>
+		<div class=single-article>
+			<?php the_content(); ?>
+			<div class=article-catch>
+				<h2>Love this story?</h2>
+				<h2>So will your friends.</h2>
+			</div>	
 		</div>
 	<?php endwhile; else: ?>
 <p><?php _e('POST NOT FOUND');?></p><?php endif; ?>
 </div> <!-- #content end -->
 </div> <!-- #main end -->
-<?php get_footer();?>

@@ -14,14 +14,11 @@
 	font-family:		$FSB;
 	font-size:			1.7em;
 	line-height:		1em;
+	color:				$blue;
 }
 
 .title-link:active {
 	color:				$red;
-}
-
-.title-link:hover {
-	text-decoration:	none;
 }
 
 .post-box p:last-child {
