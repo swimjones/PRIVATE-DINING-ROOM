@@ -1,4 +1,7 @@
-@keyframes bounce {
-	0%{position:relative;top:-10px}
-	100%{position:relative;top:10px}
+@keyframes slide-in {
+	100%{left:50%}
+}
+
+@keyframes slide-out {
+	100%{right:50%}
 }

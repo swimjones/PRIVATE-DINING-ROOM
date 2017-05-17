@@ -5,21 +5,62 @@
 	position:				fixed;
 	top:					0;
 	width:					100%;
+	border-bottom:			5px solid $blue;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+#header button {
+	position:				absolute;
+	top:					50%;
+	left:					50%;
+	transform:				translate(-50%,-50%);
+	border:					none;
+	background-color:		white;
 }
 
 #header a:first-child {
 	color:					$blue;
 	font-family:			$FL;
-	position:				absolute;
-	top:					50%;
-	left:					50%;
-	transform:				translate(-50%,-50%);
-}
-
-#header a:first-child:hover {
-	color:					$gold;
+	font-size:				1.3em;
 }
 
 #header a:first-child:active {
 	color:					$red;
 }
+
+#menu-pop-up {
+	z-index:				1;
+	height:					310px;
+	width:					230px;
+	border-radius:			6px;
+	border:					.01em solid $blue;
+	background-color:		white;
+	position:				fixed;
+	top:					50%;
+	left:					-50%;
+	transform:				translate(-50%,-50%);
+}
+
+.menu-closed {
+}
+
+.menu-open {
+	animation:				slide-in .5s forwards;
+}
+
+.nav-up {
+	top:					-60px;
+}
+
+#menu-pop-up button:last-child {
+	background-color:		white;
+	border:					none;
+}
+
+
+
+
+
+
+

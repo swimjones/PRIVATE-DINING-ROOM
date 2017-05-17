@@ -1,62 +1,64 @@
-// START CLOSING + OPENING NAV MENU // ---------------------->
 
-function bye_menu() {
-    if($("#header ul").hasClass("show_menu")) {
-        $("#header ul").removeClass("show_menu").addClass("no_menu");
-        return false;
-    } else {
-            $("#header ul").removeClass("no_menu").addClass("show_menu");
-            return false; 
-        }
+
+function menuOpen(){
+
+	var mobileMenu = $("#menu-pop-up");
+	var mobileMenuText = $("#navtext");
+
+	mobileMenu.fadeIn();
+	mobileMenu.removeClass("menu-closed").addClass("menu-open");
+	mobileMenuText.text("private dining room");
+
+	console.log("Menu open");
 }
 
-// START CLOSING + OPENING NAV MENU // ---------------------->
-// START HIDE MENU ON SCROLL // ---------------------->
+function menuClose(){
+
+	var mobileMenu = $("#menu-pop-up");
+	var mobileMenuText = $("#navtext");
+
+	mobileMenu.fadeOut();
+	mobileMenuText.text("navigation");
+	console.log("Menu close");
+
+}
+
+// START HEADER HIDE // 
 
 var didScroll;
-var lastScrollTop 	= 0; 
-var navbarHeight 	= 60;
-var delta 			= 5;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('#header').outerHeight();
 
 $(window).scroll(function(event){
-	didScroll = true;
+    didScroll = true;
 });
 
-// interval set to check status of menu
-setInterval(function(){
-	if(didScroll){
-		hasScrolled();
-		didScroll = false;
-	}
-}, 250)
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
 
 function hasScrolled() {
     var st = $(this).scrollTop();
     
-    // user must scroll more than delta
+    // Make sure they scroll more than delta
     if(Math.abs(lastScrollTop - st) <= delta)
         return;
     
-    // if scrolled down and past navbar, add slide_up class to hide
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
-
-        // scroll Down
-        $("#header").removeClass('default').addClass('slide_up');
-
-        $("#header ul").removeClass("show_menu").addClass("no_menu");
+        // Scroll Down
+        $('#header').removeClass('nav-down').addClass('nav-up');
     } else {
-            if(st + $(window).height() < $(document).height()) {
-
-                // scroll up
-                $("#header").removeClass('slide_up').addClass('default');
-
-                // changes menu svg back to normal if menu open while scroll up
-                if(($("#header ul").hasClass("no_menu")) && ($("#header").hasClass("default"))){
-                }
-            }
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('#header').removeClass('nav-up').addClass('nav-down');
         }
+    }
+    
     lastScrollTop = st;
-    // set last scroll to new scroll_top
 }
-
-// END HIDE MENU ON SCROLL // ---------------------->
