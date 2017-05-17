@@ -7,7 +7,7 @@ function menuOpen(){
 
 	mobileMenu.fadeIn();
 	mobileMenu.removeClass("menu-closed").addClass("menu-open");
-	mobileMenuText.text("£");
+	//mobileMenuText.text("&#9776;");
 
 	console.log("Menu open");
 }
@@ -18,7 +18,7 @@ function menuClose(){
 	var mobileMenuText = $("#navtext");
 
 	mobileMenu.fadeOut();
-	mobileMenuText.text("navigation");
+	//mobileMenuText.text("navigation");
 	console.log("Menu close");
 
 }
