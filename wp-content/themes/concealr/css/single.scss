@@ -58,6 +58,12 @@ img {
 	font-size:			1.1em;
 }
 
+.single-article h2 {
+	width:				95%;
+	margin:				20px auto 20px auto;
+	font-family:		$FSB;
+}
+
 .single-article img {
 	width:				100%;
 	height:				auto;
@@ -76,8 +82,19 @@ img {
 	margin:				auto;
 }
 
+.single-article blockquote p {
+	color:				$red;
+	width:				95%;
+	margin:				40px auto 40px auto;
+	font-family: 		$FR;
+	font-size:			1.8em;
+	line-height:		1em;
+	//text-decoration:	underline;
+}
 
-
+blockquote {
+	margin:				0;
+}
 
 
 

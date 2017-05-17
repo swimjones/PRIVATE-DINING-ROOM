@@ -16,12 +16,25 @@
 	.single-article p {
 		width:				80%;
 	}
+
+	.article-catch h2 {
+		width:				80%;
+		margin:				auto;
+	}
+	.single-article h2,
+	.single-article blockquote p {
+		width:				80%;
+	}
 }
 
 @media screen and (min-width:749px){
-	.single-article p {
+	.single-article p,
+	.article-catch h2,
+	.single-article blockquote p,
+	.single-article h2 {
 		width:				670px;
 	}
+
 }
 
 @media screen and (min-width:800px){
@@ -43,6 +56,11 @@
 
 	.single-article p {
 		font-size:			1.2em;
+	}
+
+	.single-article blockquote p {
+		font-size:			2.4em;
+		margin:				50px auto 50px auto;
 	}
 
 }
