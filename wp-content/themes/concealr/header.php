@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id=menu-pop-up class=menu-closed>
-	<a href="<?php getenv('DOMAIN_NAME');?>">stories</a>
+	<a>stories</a>
 	<div class=divider></div>
 	<a>categories</a>
 	<div class=divider></div>
