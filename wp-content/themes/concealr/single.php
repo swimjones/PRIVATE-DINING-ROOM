@@ -2,22 +2,15 @@
 <div id=main>
 <div id=content>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<div id=post_atf>
-			<h1><?php the_title(); ?></h1>
-			<br><br>
-			<p id=excpt><?php echo the_excerpt();?></p>
-			<br><br>
-			<p style="font-size:.80em">Story by <?php the_author();?><br><br>Photography by <?php the_meta(); ?></p>
-			<br><br>
+		<div class=post-atf>
+			<h1><?php echo the_title(); ?></h1>
+			<h3><?php the_excerpt(); ?></h3>
+			<h4>Story by <?php the_author(); ?></h4>
+			<h4>Photography by <?php the_meta(); ?></h4>
+			<h2>Published <?php echo the_date(); ?></h2>
 			<?php echo get_the_post_thumbnail(); ?>
 		</div>
-		<div id=single_article>
-			<?php the_content(); ?>
-			<div id=socialbuttons>
-				<p>
-					<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-show-count="true">Tweet</a>
-				</p>
-			</div>
+		<div class=post-content>
 		</div>
 	<?php endwhile; else: ?>
 <p><?php _e('POST NOT FOUND');?></p><?php endif; ?>

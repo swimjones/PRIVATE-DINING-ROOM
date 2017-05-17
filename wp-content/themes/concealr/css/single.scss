@@ -1,87 +1,45 @@
-#post_atf {
-	padding:				50px 0 50px 0;
+
+.post-atf {
+	margin: 40px auto auto auto;
+}
+.post-atf img {
+	width:				100%;
+	height:				auto;
 }
 
-#post_atf h1 {
-	width:					87%;
-	margin:					auto;
-	font-family:			$FSB;
-	text-align:				center;
-	color:					$red;
-	font-size:				2.7em;
-	line-height: 			1em;
+.post-atf h1 {
+	font-family:		$FSB;
+	color:				$red;
+	font-size:			1.5em;
+	margin:				auto auto 10px 20px;
 }
 
-#post_atf p{
-	width:					80%;
-	margin:					auto;
-	text-align:				center;
-	font-family:			$HELV;
-	font-weight:			100;
-	font-size:				.93em;
+.post-atf h2 {
+	width:				80%;
+	font-family:		$FSB;
+	font-size:			1.1em;
+	color:				$red;
+	margin:				100px auto 20px 20px;
 }
 
-#post_atf img {
-	width:					100%;
-	height:					auto;
+.post-atf h3 {
+	font-family:		$HELV;
+	font-weight:		100;
+	font-size:			.85em;
+	color:				$red;
+	margin:				auto auto 20px 20px;
+
 }
 
-#single_article {
-	margin-bottom:			20%;
+.post-atf h4 {
+	font-family:		$HELV;
+	color:				$red;
+	font-weight:		100;
+	font-size:			.75em;
+	margin:				auto auto auto 20px;
+} 
+
+.post-atf h4:last-child {
+	margin-bottom:		100px;
 }
-
-#single_article img {
-	width:					100%;
-	height:					auto;
-	padding:				5% 0 5% 0;
-}
-
-#single_article > p {
-	width:					93%;
-	font-size:				1.02em;
-	line-height:			1.3em;
-	font-family:			$FRL;
-	margin:					auto;
-	padding:				1% 0px 1% 0px;
-}
-
-#single_article h2 {
-	font-family:			$FSB;
-	color:					$red;
-	font-size:				1.4em;
-	font-weight:			600;
-	width:					93%;
-	margin:					auto;
-	padding:				20px 0px 10px 0px;
-}
-
-blockquote {
-	border-left:			12px solid $gold;
-	padding:				15px;
-	position:				relative;
-	left:					5%;
-	margin:					20px auto 20px auto;
-}
-
-blockquote p {
-	font-family:			$FSB;
-	color:					$gold;
-	font-size:				1.5em;
-	line-height:			1em;
-	width:					90%;
-}
-
-#socialbuttons p {
-	width:				60px;
-	margin:				50px auto 50px auto;
-}
-
-
-
-
-
-
-
-
-
 
