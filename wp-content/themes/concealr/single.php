@@ -19,8 +19,7 @@
 						<a>
 							<img src="<?php echo get_stylesheet_directory_uri();?>/resources/fb.png">
 						</a>
-						<a class=twitter-share-button href="https://twitter.com/share" data-url="<?php echo get_permalink();?>">
-								<script async src="<?php echo get_stylesheet_directory_uri();?>/js/twitter.js" charset="utf-8"></script>
+						<a href="https://twitter.com/intent/tweet?text=<?php echo the_title();?>&url=<?php echo get_permalink();?>&via=swimjones">
 							<img src="<?php echo get_stylesheet_directory_uri();?>/resources/twitter.png">
 						</a>
 					</div>
@@ -30,4 +29,3 @@
 <p><?php _e('POST NOT FOUND');?></p><?php endif; ?>
 </div> <!-- #content end -->
 </div> <!-- #main end -->
-<!--<a href="https://twitter.com/share" class="twitter-share-button" data-text="title" data-url="https://me.com/" data-via="swimjones" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
