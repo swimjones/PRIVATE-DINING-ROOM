@@ -15,6 +15,10 @@
 			<div class=article-catch>
 				<h2>Love this story?</h2>
 				<h2>So will your friends.</h2>
+					<div>
+						<a><img src="<?php echo get_stylesheet_directory_uri();?>/resources/fb.png"></a>
+						<a><img src="<?php echo get_stylesheet_directory_uri();?>/resources/twitter.png"></a>
+					</div>
 			</div>	
 		</div>
 	<?php endwhile; else: ?>

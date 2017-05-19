@@ -51,15 +51,15 @@ img {
 // END ATF
 
 .single-article p {
-	width:				95%;
+	width:				90%;
 	margin:				10px auto 10px auto;
-	line-height:		1.1em;
+	line-height:		1.35em;
 	font-family:		$FRL;
-	font-size:			1.1em;
+	font-size:			1.13em;
 }
 
 .single-article h2 {
-	width:				95%;
+	width:				90%;
 	margin:				20px auto 20px auto;
 	font-family:		$FSB;
 }
@@ -78,22 +78,33 @@ img {
 	font-family:		$FSB;
 	color:				$red;
 	font-size:			1.8em;
-	width:				95%;
+	width:				90%;
 	margin:				auto;
 }
 
 .single-article blockquote p {
 	color:				$red;
-	width:				95%;
-	margin:				40px auto 40px auto;
-	font-family: 		$FR;
+	width:				90%;
+	margin:				30px auto 30px auto;
+	font-family: 		$FSB;
 	font-size:			1.8em;
 	line-height:		1em;
-	//text-decoration:	underline;
+	text-align:			center;
 }
 
 blockquote {
 	margin:				0;
+}
+
+.article-catch img { 
+	width:				40px;
+	height:				auto;
+	padding:			0;
+}
+
+.article-catch div {
+	width:				90%;
+	margin:				auto;
 }
 
 

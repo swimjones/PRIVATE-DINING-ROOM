@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="<?php echo get_stylesheet_directory_uri();?>/js/front.js"></script>
-	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
 <body>
 <div id=menu-pop-up class=menu-closed>
