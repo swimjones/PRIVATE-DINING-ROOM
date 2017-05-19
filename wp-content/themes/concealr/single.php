@@ -16,9 +16,11 @@
 				<h2>Love this story?</h2>
 				<h2>So will your friends.</h2>
 					<div>
-						<a href="snapchat://">
-							<img src="<?php echo get_stylesheet_directory_uri();?>/resources/snap.svg">
-						</a>
+						<button id=snap-opener onclick="copyLink">
+							<a href="snapchat://">
+								<img src="<?php echo get_stylesheet_directory_uri();?>/resources/snap.svg">
+							</a>
+						</button>
 						<a href="https://twitter.com/intent/tweet?text=<?php echo the_title();?>&url=<?php echo get_permalink();?>&via=swimjones">
 							<img src="<?php echo get_stylesheet_directory_uri();?>/resources/twitter.png">
 						</a>
