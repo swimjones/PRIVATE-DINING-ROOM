@@ -16,7 +16,7 @@
 				<h2>Love this story?</h2>
 				<h2>So will your friends.</h2>
 					<div>
-						<button id=snap-opener onclick="copyLink">
+						<button id=snap-opener>
 							<a href="snapchat://">
 								<img src="<?php echo get_stylesheet_directory_uri();?>/resources/snap.svg">
 							</a>

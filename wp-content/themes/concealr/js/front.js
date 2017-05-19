@@ -10,5 +10,3 @@ function menuClose(){
 	var mobileMenuText = $("#navtext");
 	mobileMenu.fadeOut();
 }
-
-function copyLink()
