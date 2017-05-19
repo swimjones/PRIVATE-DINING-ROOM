@@ -9,15 +9,15 @@
 			<h4>Photography by <?php the_meta(); ?></h4>
 			<h2>Published <?php the_date(); ?></h2>
 		</div>
-		<?php the_post_thumbnail(); ?>
+		<img class=summary-page-card><?php the_post_thumbnail(); ?></div>
 		<div class=single-article>
 			<?php the_content(); ?>
 			<div class=article-catch>
 				<h2>Love this story?</h2>
 				<h2>So will your friends.</h2>
 					<div>
-						<a>
-							<img src="<?php echo get_stylesheet_directory_uri();?>/resources/fb.png">
+						<a href="snapchat://">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/resources/snap.svg">
 						</a>
 						<a href="https://twitter.com/intent/tweet?text=<?php echo the_title();?>&url=<?php echo get_permalink();?>&via=swimjones">
 							<img src="<?php echo get_stylesheet_directory_uri();?>/resources/twitter.png">
@@ -29,3 +29,12 @@
 <p><?php _e('POST NOT FOUND');?></p><?php endif; ?>
 </div> <!-- #content end -->
 </div> <!-- #main end -->
+
+
+
+
+
+
+
+
+
