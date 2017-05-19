@@ -1,6 +1,7 @@
 
 .post-atf {
-	margin: 			40px auto auto auto;
+	margin: 			60px auto auto auto;
+
 }
 
 img {
@@ -14,7 +15,7 @@ img {
 	font-family:		$FSB;
 	color:				$red;
 	font-size:			2em;
-	margin:				100px auto 25px auto;
+	margin:				10px auto 25px auto;
 }
 
 .post-atf h2 {
@@ -22,7 +23,7 @@ img {
 	font-family:		$FSB;
 	font-size:			1.1em;
 	color:				$red;
-	margin:				100px auto 100px auto;
+	margin:				100px auto 10px auto;
 }
 
 .post-atf h3 {
@@ -46,6 +47,18 @@ img {
 
 .post-atf h4:last-child {
 	margin-bottom:		100px;
+}
+
+#category-tag {
+	color:				$blue;
+	font-family:		$HELV;
+	font-size:			1em;
+	margin:				0 auto 0 auto;
+}
+
+#category-tag a {
+	color:				$blue;
+	font-style:			italic;
 }
 
 // END ATF

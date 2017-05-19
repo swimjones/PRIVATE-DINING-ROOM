@@ -3,6 +3,8 @@
 <div id=content>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div class=post-atf>
+			<h2 id=category-tag>— <?php echo the_category(single);?> —</h2>
+			<div class=divider></div>
 			<h1 id="post-title"><?php the_title(); ?></h1>
 			<h3><?php the_excerpt(); ?></h3>
 			<h4>Story by <?php the_author(); ?></h4>
