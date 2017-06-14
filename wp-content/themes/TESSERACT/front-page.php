@@ -12,11 +12,11 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- Favicons-->
 <!--<link rel="icon" href="favicon.ico" sizes="32x32">-->
-<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-<link rel="manifest" href="favicons/manifest.json">
-<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_stylesheet_directory_uri();?>/lp-favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_stylesheet_directory_uri();?>/lp-favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_stylesheet_directory_uri();?>/lp-favicons/favicon-16x16.png">
+<link rel="manifest" href="<?php echo get_stylesheet_directory_uri();?>/lp-favicons/manifest.json">
+<link rel="mask-icon" href="<?php echo get_stylesheet_directory_uri();?>/lp-favicons/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="apple-mobile-web-app-title" content="TurnoverBnB">
 <meta name="application-name" content="TurnoverBnB">
 <meta name="theme-color" content="#ffffff">
@@ -27,11 +27,11 @@
 <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
 
 
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="css/magnific-popup.css" rel="stylesheet">
-<link href="css/owl.carousel.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
+<link href="<?php echo get_stylesheet_directory_uri();?>/lp-css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo get_stylesheet_directory_uri();?>/lp-css/font-awesome.min.css" rel="stylesheet">
+<link href="<?php echo get_stylesheet_directory_uri();?>/lp-css/magnific-popup.css" rel="stylesheet">
+<link href="<?php echo get_stylesheet_directory_uri();?>/lp-css/owl.carousel.css" rel="stylesheet">
+<link href="<?php echo get_stylesheet_directory_uri();?>/lp-css/main.css" rel="stylesheet">
 </head>
 <body>
 
@@ -75,7 +75,7 @@
   
   <nav class="navbar navbar-default" data-spy="affix" data-offset-top="450">
     <div class="container">
-      <div class="navbar-header"> <a class="navbar-brand" href=""><img style="width:200px;height:auto" class="logo" alt="logo" src="logos/tbnb-white.png"><img style="width:180px;height:auto" class="logo-nav" alt="logo-nav" src="logos/full-transparent.png"></a> </div>
+      <div class="navbar-header"> <a class="navbar-brand" href=""><img style="width:200px;height:auto" class="logo" alt="logo" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/tbnb-white.png"><img style="width:180px;height:auto" class="logo-nav" alt="logo-nav" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/full-transparent.png"></a> </div>
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-xs hidden-sm"><a href="#how-it-works">How It Works</a></li>
         <li class="hidden-xs hidden-sm"><a href="#features">Features</a></li>
@@ -172,7 +172,7 @@
         
         <!--step 1-->
         <div class="row">
-          <div class="col-md-6 col-md-push-6 text-center"> <img src="img/step-1-signup.png" alt="step-1"> </div>
+          <div class="col-md-6 col-md-push-6 text-center"> <img src="<?php echo get_stylesheet_directory_uri();?>/lp-img/step-1-signup.png" alt="step-1"> </div>
           <div class="col-md-6 col-md-pull-6">
             <div class="step-number"><span>1</span></div>
             <h4>Sign up</h4>
@@ -183,7 +183,7 @@
         
         <!--step 2-->
         <div class="row">
-          <div class="col-md-6 text-center"> <img src="img/step-2-calendar.png" alt="step-2"> </div>
+          <div class="col-md-6 text-center"> <img src="<?php echo get_stylesheet_directory_uri();?>/lp-img/step-2-calendar.png" alt="step-2"> </div>
           <div class="col-md-6">
             <div class="step-number"><span>2</span></div>
             <h4>Sync to your rental calendar</h4>
@@ -194,7 +194,7 @@
         
         <!--step 3-->
         <div class="row">
-          <div class="col-md-6 col-md-push-6 text-center"> <img style="width:280px; height:auto" src="img/step-3-cleaner.png" alt="step-3"> </div>
+          <div class="col-md-6 col-md-push-6 text-center"> <img style="width:280px; height:auto" src="<?php echo get_stylesheet_directory_uri();?>/lp-img/step-3-cleaner.png" alt="step-3"> </div>
           <div class="col-md-6 col-md-pull-6">
             <div class="step-number"><span>3</span></div>
             <h4>Invite your cleaners</h4>
@@ -205,7 +205,7 @@
         
         <!--step 4-->
         <div class="row">
-          <div class="col-md-6 text-center"> <img style="width:280px; height:auto" src="img/step-4-relax.png" alt="step-4"> </div>
+          <div class="col-md-6 text-center"> <img style="width:280px; height:auto" src="<?php echo get_stylesheet_directory_uri();?>/lp-img/step-4-relax.png" alt="step-4"> </div>
           <div class="col-md-6">
             <div class="step-number"><span>4</span></div>
             <h4>Relax</h4>
@@ -305,7 +305,7 @@
       </div>-->
     </div>
     <div class="row footer-col-spacing">
-      <div class="col-md-2 footer-logo"> <a href=""><img style="width:80px;height:auto" src="logos/circle-clear.png" alt="logo footer"></a> </div>
+      <div class="col-md-2 footer-logo"> <a href=""><img style="width:80px;height:auto" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/circle-clear.png" alt="logo footer"></a> </div>
       <!--<div class="col-sm-4 col-md-2">
         <ul class="footer-nav">
           <li>
@@ -478,21 +478,21 @@
 
 <!--contact form modal end--> 
 
-<script src="js/jquery-2.2.1.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.magnific-popup.min.js"></script> 
-<script src="js/owl.carousel.min.js"></script> 
-<script src="js/jquery.waypoints.min.js"></script> 
-<script src="js/jquery.animateNumber.min.js"></script> 
+<script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/jquery-2.2.1.min.js"></script> 
+<script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/bootstrap.min.js"></script> 
+<script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/jquery.magnific-popup.min.js"></script> 
+<script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/owl.carousel.min.js"></script> 
+<script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/jquery.waypoints.min.js"></script> 
+<script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/jquery.animateNumber.min.js"></script> 
 <!--<script src="js/jquery.ajaxchimp.min.js"></script>-->
 <script src="js/tweetie.min.js"></script>
 <!--[if IE 9]>
 <script src="js/placeholders.min.js"></script>
 <![endif]--> 
-<script src="js/main.js"></script> 
+<script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/main.js"></script> 
 <script async src="http://platform.twitter.com/widgets.js"></script> 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
-<script src="js/gmap.js"></script> 
-<script src="js/retina.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/gmap.js"></script> 
+<script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/retina.min.js"></script>
 </body>
 </html>
