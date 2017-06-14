@@ -32,6 +32,23 @@
 <link href="<?php echo get_stylesheet_directory_uri();?>/lp-css/magnific-popup.css" rel="stylesheet">
 <link href="<?php echo get_stylesheet_directory_uri();?>/lp-css/owl.carousel.css" rel="stylesheet">
 <link href="<?php echo get_stylesheet_directory_uri();?>/lp-css/main.css" rel="stylesheet">
+
+<style type="text/css">
+  @media screen and (max-width:376px)
+  {
+    .resp-logo {
+      width:150px;
+      height:auto;
+    }
+  }
+
+  @media screen and (min-width: 377px){
+    .resp-logo {
+      width:240px;
+      height:auto;
+    }
+  }
+</style>
 </head>
 <body>
 
@@ -75,7 +92,7 @@
   
   <nav class="navbar navbar-default" data-spy="affix" data-offset-top="450">
     <div class="container">
-      <div class="navbar-header"> <a class="navbar-brand" href=""><img style="width:200px;height:auto" class="logo" alt="logo" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/logo-white.svg"><img style="width:180px;height:auto" class="logo-nav" alt="logo-nav" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/full-transparent.png"></a> </div>
+      <div class="navbar-header"> <a class="navbar-brand" href=""><img class="logo resp-logo" alt="logo" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/logo-white.svg"><img class="logo-nav resp-logo" alt="logo-nav" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/logo-black.svg"></a> </div>
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-xs hidden-sm"><a href="#how-it-works">How It Works</a></li>
         <li class="hidden-xs hidden-sm"><a href="#features">Features</a></li>
