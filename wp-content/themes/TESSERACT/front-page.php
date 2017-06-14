@@ -75,7 +75,7 @@
   
   <nav class="navbar navbar-default" data-spy="affix" data-offset-top="450">
     <div class="container">
-      <div class="navbar-header"> <a class="navbar-brand" href=""><img style="width:200px;height:auto" class="logo" alt="logo" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/tbnb-white.png"><img style="width:180px;height:auto" class="logo-nav" alt="logo-nav" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/full-transparent.png"></a> </div>
+      <div class="navbar-header"> <a class="navbar-brand" href=""><img style="width:200px;height:auto" class="logo" alt="logo" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/logo-white.svg"><img style="width:180px;height:auto" class="logo-nav" alt="logo-nav" src="<?php echo get_stylesheet_directory_uri();?>/lp-logos/full-transparent.png"></a> </div>
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-xs hidden-sm"><a href="#how-it-works">How It Works</a></li>
         <li class="hidden-xs hidden-sm"><a href="#features">Features</a></li>
