@@ -118,7 +118,7 @@ strong { font-weight: 700; }
    ========================================================================== */ 
    
 .hero-section {
-  background: url(../img/bg-hero.jpg) center center no-repeat;
+  background: url(../lp-img/bg-hero.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
   image-rendering: -moz-crisp-edges;

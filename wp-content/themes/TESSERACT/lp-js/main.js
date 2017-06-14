@@ -7,71 +7,14 @@ $(function() {
        CTA Form   
        ========================================================================== */
 
-
-    $('#cta-signup-form').ajaxChimp({
-        callback: callbackFunctionCta,
-        url: 'http://csmthemes.us3.list-manage.com/subscribe/post?u=9666c25a337f497687875a388&id=df84217cb4'
-            // http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-    });
-
-    function callbackFunctionCta(resp) {
-        if (resp.result === 'success') {
-            $('#mc-error-cta').slideUp();
-            $('#mc-success-cta').slideDown();
-        } else if (resp.result === 'error') {
-            $('#mc-success-cta').slideUp();
-            $('#mc-error-cta').slideDown();
-        }
-    }
-
-
     /* ==========================================================================
        Sub Form   
        ========================================================================== */
 
 
-    $('#mc-form').ajaxChimp({
-        callback: callbackFunction,
-        url: 'http://csmthemes.us3.list-manage.com/subscribe/post?u=9666c25a337f497687875a388&id=5b881a50fb'
-            // http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-    });
-
-    function callbackFunction(resp) {
-        if (resp.result === 'success') {
-            $('#mc-error').slideUp();
-            $('#mc-success').slideDown();
-        } else if (resp.result === 'error') {
-            $('#mc-success').slideUp();
-            $('#mc-error').slideDown();
-        }
-    }
-
-
-
     /* ==========================================================================
    Tweet
    ========================================================================== */
-
-
-    $('.tweet').twittie({
-        username: 'envatomarket', // change username here
-        dateFormat: '%b. %d, %Y',
-        template: '{{tweet}} {{user_name}}',
-        count: 10
-    }, function() {
-        var item = $('.tweet ul');
-
-        item.children('li').first().show().siblings().hide();
-        setInterval(function() {
-            item.find('li:visible').fadeOut(500, function() {
-                $(this).appendTo(item);
-                item.children('li').first().fadeIn(500);
-            });
-        }, 8000);
-    });
-
-
-
 
     /* ==========================================================================
    Product statistics counter

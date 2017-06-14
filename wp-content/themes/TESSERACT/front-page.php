@@ -79,6 +79,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-xs hidden-sm"><a href="#how-it-works">How It Works</a></li>
         <li class="hidden-xs hidden-sm"><a href="#features">Features</a></li>
+        <li><a data-toggle="modal" data-target="#modal-contact-form">Contact</a></li>
         <li><a href="http://staging-app.turnoverbnb.com/" class="hidden-xs hidden-sm">Sign In</a></li>
         <li><a href="#hero-section" class="btn btn-nav">Sign Up</a></li>
         <li class="hidden-md hidden-lg"><a id="toggle"><i class="fa fa-bars fa-2x"></i><i class="fa fa-times fa-2x"></i></a></li>
@@ -95,8 +96,9 @@
       <ul>
         <li><a href="#how-it-works">How It Works</a></li>
         <li><a href="#features">Features</a></li>
-		<li><a href="http://staging-app.turnoverbnb.com/">Sign In</a></li>
+		    <li><a href="http://staging-app.turnoverbnb.com/">Sign In</a></li>
         <li><a href="#hero-section">Sign Up</a></li>
+        <li><a data-toggle="modal" data-target="#modal-contact-form">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -349,7 +351,7 @@
       </div>
     </div>
   </div>
-  <a href="" class="chat-btn" data-toggle="modal" data-target="#modal-contact-form"></a> </footer>
+  <!--<a href="" class="chat-btn" data-toggle="modal" data-target="#modal-contact-form"></a> </footer>-->
 
 <!--Site footer end--> 
 
@@ -447,7 +449,7 @@
         <!--contact form-->
         
         <div class="contact-form text-center">
-          <header class="section-header"> <img src="img/support-icon.svg" alt="support icon">
+          <header class="section-header"> <img src="<?php echo get_stylesheet_directory_uri();?>/lp-img/support-icon.svg" alt="support icon">
             <h2>Contact us</h2>
             <h3>Have any questions? Send us a message.</h3>
           </header>
@@ -485,7 +487,7 @@
 <script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/jquery.waypoints.min.js"></script> 
 <script src="<?php echo get_stylesheet_directory_uri();?>/lp-js/jquery.animateNumber.min.js"></script> 
 <!--<script src="js/jquery.ajaxchimp.min.js"></script>-->
-<script src="js/tweetie.min.js"></script>
+<!--<script src="js/tweetie.min.js"></script>-->
 <!--[if IE 9]>
 <script src="js/placeholders.min.js"></script>
 <![endif]--> 
