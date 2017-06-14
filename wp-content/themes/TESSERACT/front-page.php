@@ -79,9 +79,9 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-xs hidden-sm"><a href="#how-it-works">How It Works</a></li>
         <li class="hidden-xs hidden-sm"><a href="#features">Features</a></li>
-        <li><a data-toggle="modal" data-target="#modal-contact-form">Contact</a></li>
+        <li class="hidden-xs hidden-sm"><a data-toggle="modal" data-target="#modal-contact-form">Contact</a></li>
         <li><a href="http://staging-app.turnoverbnb.com/" class="hidden-xs hidden-sm">Sign In</a></li>
-        <li><a href="#hero-section" class="btn btn-nav">Sign Up</a></li>
+        <li><a href="#cta-signup-form" class="btn btn-nav">Sign Up</a></li>
         <li class="hidden-md hidden-lg"><a id="toggle"><i class="fa fa-bars fa-2x"></i><i class="fa fa-times fa-2x"></i></a></li>
       </ul>
     </div>
