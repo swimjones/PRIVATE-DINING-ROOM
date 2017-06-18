@@ -1,0 +1,12 @@
+{
+    "name": "swimjones/new-site",
+    "authors": [
+        {
+            "name": "swimjones",
+            "email": "nwilliams17@punahou.edu"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    }
+}
